@@ -1,0 +1,110 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f4f7837f-dd80-4f77-b150-4534de1c10d6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 38.1 25.4)
+		(size 44.45 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "880a94ed-a974-4da2-b4ca-cb72436ddb06")
+		(property "Sheetname" "Power,Input,Protection"
+			(at 38.1 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/01_Power/Power_Input_Protection.kicad_sch"
+			(at 38.1 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+20V_MAIN" input
+			(at 38.1 33.02 180)
+			(uuid "74076b18-d173-4b89-b5bd-8ab072e665c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_CURR_MON" input
+			(at 38.1 38.1 180)
+			(uuid "3dfa6d08-ba11-40fc-b63b-1e7222587f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_FAULT_N" input
+			(at 38.1 43.18 180)
+			(uuid "d5034b42-5eee-4269-b09c-0bc86fb6974e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPD_FLT1" input
+			(at 38.1 48.26 180)
+			(uuid "9f82b7dc-e9e7-4e59-8a5f-be17feb186fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPD_FLT12" input
+			(at 38.1 53.34 180)
+			(uuid "690da54c-170d-4ae4-8ddf-15c4c675149a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
