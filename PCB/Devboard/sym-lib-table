@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Devboard_Symbols") (type "KiCad") (uri "${KIPRJMOD}/libraries/Devboard_custom.kicad_sym/easyeda2kicad.kicad_sym") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/easyeda2kicad.kicad_sym") (options "") (descr ""))
 )

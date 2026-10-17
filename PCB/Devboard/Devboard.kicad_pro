@@ -611,12 +611,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,7 +703,7 @@
         "uuid": "f4f7837f-dd80-4f77-b150-4534de1c10d6"
       }
     ],
-    "used_designators": "R1-29,C1-9,C11-16,C18,USB1-2,U1-5,DC1,Q1,D1-4,D24,C_shield1-2,R_shield1,#PWR1-74",
+    "used_designators": "R1-63,C1-52,USB1-2,U1-16,DC1,Q1,RT1,D1-5,D24,C_shield1-2,R_shield1,#PWR1-138,L1-6,TH1,Cr1",
     "variants": []
   },
   "sheets": [
@@ -672,6 +714,14 @@
     [
       "880a94ed-a974-4da2-b4ca-cb72436ddb06",
       "Power,Input,Protection"
+    ],
+    [
+      "58c0d1bc-f1af-47a1-8444-9b0b37a445d5",
+      "Battery.Charger,Fuel Gauge"
+    ],
+    [
+      "45cac4e6-0a29-4df8-a47a-acc787d94f7b",
+      "Power Tree"
     ]
   ],
   "text_variables": {},
