@@ -5098,12 +5098,6 @@
 		(uuid "b90a604a-77b2-4da8-a40b-90e82755f49a")
 	)
 	(junction
-		(at 353.06 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1b22365-aab8-4ba3-8fdd-3976e923d12f")
-	)
-	(junction
 		(at 381 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8096,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 300.99 99.06 90)
+		(at 298.45 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8107,7 +8101,7 @@
 		(fields_autoplaced yes)
 		(uuid "108aaad5-a84f-4e50-aeef-d8cfa0771afc")
 		(property "Reference" "#PWR0160"
-			(at 304.8 99.06 0)
+			(at 302.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8112,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 297.18 99.0599 90)
+			(at 294.64 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8129,7 +8123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 99.06 0)
+			(at 298.45 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +8134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 99.06 0)
+			(at 298.45 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 300.99 99.06 0)
+			(at 298.45 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,7 +8169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 300.99 91.44 270)
+		(at 298.45 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8186,7 +8180,7 @@
 		(fields_autoplaced yes)
 		(uuid "12283a37-cb29-46dc-a9e4-ac0f99732479")
 		(property "Reference" "#PWR077"
-			(at 294.64 91.44 0)
+			(at 292.1 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 91.44 0)
+			(at 293.37 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8207,7 +8201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 91.44 0)
+			(at 298.45 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +8212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 91.44 0)
+			(at 298.45 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +8223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 91.44 0)
+			(at 298.45 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,13 +8817,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4.7kΩ"
 			(at 167.894 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -9822,7 +9816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 300.99 95.25 0)
+		(at 298.45 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9833,7 +9827,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ef6a942-54b6-4b76-9027-29ee35cff9b3")
 		(property "Reference" "C2"
-			(at 304.8 93.9799 0)
+			(at 302.26 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9844,7 +9838,7 @@
 			)
 		)
 		(property "Value" "1uF 25V"
-			(at 304.8 96.5199 0)
+			(at 302.26 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9855,7 +9849,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 301.9552 99.06 0)
+			(at 299.4152 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9866,7 +9860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 95.25 0)
+			(at 298.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +9871,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 300.99 95.25 0)
+			(at 298.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11119,13 +11113,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4.7kΩ"
 			(at 167.894 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -13144,84 +13138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 353.06 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "658e608d-3d69-45e6-8fe1-6c697eb5f4fa")
-		(property "Reference" "#PWR0284"
-			(at 349.25 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_SYS"
-			(at 356.87 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 353.06 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1338ee21-06ac-4a61-8bba-58bec35f41b6")
-		)
-		(instances
-			(project "Devboard"
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
-					(reference "#PWR0284")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 243.84 90)
 		(unit 1)
@@ -13914,7 +13830,7 @@
 		(dnp no)
 		(uuid "75fcaa9b-5688-4f8f-8480-35d0ca66845a")
 		(property "Reference" "C4"
-			(at 347.472 120.904 90)
+			(at 362.966 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13924,7 +13840,7 @@
 			)
 		)
 		(property "Value" "0.1uF 50V X7R"
-			(at 349.504 120.396 90)
+			(at 362.458 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

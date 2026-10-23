@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f4f7837f-dd80-4f77-b150-4534de1c10d6")
-	(paper "E")
+	(paper "A1")
 	(lib_symbols)
 	(sheet
-		(at 292.735 15.24)
+		(at 328.93 219.71)
 		(size 43.18 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "36059d2f-5ca2-4989-b613-260b615066b7")
 		(property "Sheetname" "DDR4 Memory"
-			(at 292.735 14.5284 0)
+			(at 328.93 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/04_Zynq/04b_Zynq_DDR4.kicad_sch"
-			(at 292.735 43.1296 0)
+			(at 328.93 247.5996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 158.115 15.24)
+		(at 194.31 219.71)
 		(size 45.085 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "45cac4e6-0a29-4df8-a47a-acc787d94f7b")
 		(property "Sheetname" "Power Tree"
-			(at 158.115 14.5284 0)
+			(at 194.31 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/03_Power_Tree/03_Power_Tree.kicad_sch"
-			(at 158.115 43.1296 0)
+			(at 194.31 247.5996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 88.265 15.24)
-		(size 44.45 27.305)
+		(at 118.745 15.24)
+		(size 43.815 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "58c0d1bc-f1af-47a1-8444-9b0b37a445d5")
 		(property "Sheetname" "Battery.Charger,Fuel Gauge"
-			(at 88.265 14.5284 0)
+			(at 118.745 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/02_Battery/Battery_Charger_FuelGauge.kicad_sch"
-			(at 88.265 43.1296 0)
+			(at 118.745 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 15.24)
+		(at 263.525 219.71)
 		(size 45.72 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "7de3024d-34d0-4d0e-b0a3-d5132a52436c")
 		(property "Sheetname" "ZYNQ CORE"
-			(at 227.33 14.5284 0)
+			(at 263.525 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/04_Zynq/04a_Zynq_Core.kicad_sch"
-			(at 227.33 43.1296 0)
+			(at 263.525 247.5996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -191,7 +191,7 @@
 	)
 	(sheet
 		(at 15.24 15.24)
-		(size 44.45 27.305)
+		(size 86.36 78.105)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -205,7 +205,7 @@
 		)
 		(uuid "880a94ed-a974-4da2-b4ca-cb72436ddb06")
 		(property "Sheetname" "Power,Input,Protection"
-			(at 15.24 14.5284 0)
+			(at 43.942 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -216,7 +216,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/01_Power/Power_Input_Protection.kicad_sch"
-			(at 15.24 43.942 0)
+			(at 27.178 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
