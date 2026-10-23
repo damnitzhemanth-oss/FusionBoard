@@ -2,7 +2,7 @@
 
 *Author : Hemanth*
 *YSWS : Pixl*
-*Goal : Make a beacon worthy project and put up at least 90 hours*
+*Goal : Make a beacon worthy project and put up at least 100 hours*
 
 ---
 
@@ -16,7 +16,7 @@ Please read this Journal for clear day to day insights + not so funny jokes + AI
 
 [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup)
 
-**Time : 6h 15m**
+**Time : 6 hr 15 min**
 
 I decided to make a custom Dev Board which is *Unique*, *Hard to make* and most importantly *built from scratch* with least amount of **AI usage**. 
 
@@ -36,7 +36,7 @@ Today I completed Section 1 which is related to Power. It simply receives power 
 
 [Lapse](https://lapse.hackclub.com/timelapse/RgZXFPeaefZ3)
 
-**Time : 2h 30m**
+**Time : 2 hr 30 min**
 
 Today I completed Section 1 and worked on Section 2. Section 2 is about battery charging + power gauge. 
 
@@ -80,7 +80,7 @@ Fixed a few mistakes in previous section, chose 900 pin Zynq (regretting my life
 
 [Lapse](https://lapse.hackclub.com/timelapse/Iurz7R1SKVbi)
 
-**Time : 7hr 32min**
+**Time : 7 hr 32 min**
 
 Began on DDR4 memory and realized that I followed wrong datasheet, and had to scrap it and begin over.
 
@@ -93,11 +93,11 @@ Began on DDR4 memory and realized that I followed wrong datasheet, and had to sc
 
 [Lapse](https://lapse.hackclub.com/timelapse/Otw7jyXCwGHQ)
 
-**Time : 2hr 42 min**
+**Time : 2 hr 42 min**
 
 Fixed mistakes and began on Zynq, completed power rails + capacitors.
 
-**AI USAGE**: None.
+**AI USAGE** : None.
 
 ---
 
@@ -109,3 +109,19 @@ I decided to not use AI at all (very strict). Not even for understanding somethi
 
 ## Session 7 : 
 
+[Lapse](https://lapse.hackclub.com/timelapse/XaJOH0bwTB7O)
+
+**Time : 1 hr 19 min**
+
+Before I begin Zynq again I corrected few mistakes, and checked from beginning. Read Zynq User guide once again.
+
+-[X] Section 1
+-[X] Section 2
+-[X] Section 3
+-[X] Check 1
+-[X] Check 2
+-[] Power Section, adding missing nets.
+-[] Zynq
+-[] DDR4 Memory
+
+**AI USAGE** : None.

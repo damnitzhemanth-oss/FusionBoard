@@ -5056,6 +5056,12 @@
 		(uuid "554c2b2a-9f8f-435e-990c-ffd17c6c6e7f")
 	)
 	(junction
+		(at 93.98 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "564d5659-d697-4290-ab12-dc96f0c7005b")
+	)
+	(junction
 		(at 388.62 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5092,6 +5098,18 @@
 		(uuid "92537a19-cfe2-4c22-abef-a2be30cf6b90")
 	)
 	(junction
+		(at 93.98 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad91b934-71f0-4e9c-93cf-98a24ddf86d2")
+	)
+	(junction
+		(at 33.02 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bcdf95-58a9-46bd-af63-f348ee663648")
+	)
+	(junction
 		(at 234.95 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5109,6 +5127,12 @@
 		(color 0 0 0 0)
 		(uuid "e23596ea-5dd9-4774-9509-a4c510cfaeed")
 	)
+	(junction
+		(at 26.67 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e03c50-29da-46c2-9836-17a798e9f592")
+	)
 	(no_connect
 		(at 228.6 96.52)
 		(uuid "05aa2e96-eaa5-4559-836c-0ed18f0327e8")
@@ -5120,6 +5144,10 @@
 	(no_connect
 		(at 54.61 64.77)
 		(uuid "0bff0e97-3083-4c8a-87dd-6a8097706e4c")
+	)
+	(no_connect
+		(at 35.56 119.38)
+		(uuid "15a88310-10d6-4dca-8b73-4e718a936492")
 	)
 	(no_connect
 		(at 228.6 91.44)
@@ -5136,6 +5164,10 @@
 	(no_connect
 		(at 325.12 72.39)
 		(uuid "4ddf25da-cdd8-4ec7-a162-97798dab093c")
+	)
+	(no_connect
+		(at 35.56 121.92)
+		(uuid "557f96c0-6a3c-4419-a8cd-2f4b2d8369d4")
 	)
 	(no_connect
 		(at 54.61 85.09)
@@ -5299,6 +5331,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 109.22) (xy 25.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d47f781-ea88-4ae2-a082-6baa45804545")
+	)
+	(wire
+		(pts
 			(xy 55.88 185.42) (xy 55.88 191.77)
 		)
 		(stroke
@@ -5379,6 +5421,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 111.76) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a92a068-b13f-46ee-80e9-b01c81cf474e")
+	)
+	(wire
+		(pts
 			(xy 541.02 104.14) (xy 543.56 104.14)
 		)
 		(stroke
@@ -5386,6 +5438,16 @@
 			(type default)
 		)
 		(uuid "6b7a1d22-1a15-4ece-bba5-8faa97a4b1ad")
+	)
+	(wire
+		(pts
+			(xy 26.67 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4e916c-1ed7-4708-a8e7-eba312ddcbc0")
 	)
 	(wire
 		(pts
@@ -5439,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 109.22) (xy 26.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ffdf0f-39c3-4b89-898c-0be7a148f78e")
+	)
+	(wire
+		(pts
 			(xy 187.96 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -5459,6 +5531,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 109.22) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953c7d01-f749-442b-9fce-8cbfa1f2c76d")
+	)
+	(wire
+		(pts
+			(xy 35.56 113.03) (xy 33.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8a446e-56d0-4658-bd39-7cac97806f04")
+	)
+	(wire
+		(pts
 			(xy 546.1 104.14) (xy 548.64 104.14)
 		)
 		(stroke
@@ -5476,6 +5568,16 @@
 			(type default)
 		)
 		(uuid "a50cdccd-9db2-41d8-9111-b94a25347e06")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 35.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a704237b-97d6-4800-9133-61f786e4a459")
 	)
 	(wire
 		(pts
@@ -5569,6 +5671,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 107.95) (xy 26.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2294cf-c65d-42fe-a5f4-82465e59bf00")
+	)
+	(wire
+		(pts
 			(xy 368.3 115.57) (xy 381 115.57)
 		)
 		(stroke
@@ -5606,6 +5718,16 @@
 			(type default)
 		)
 		(uuid "cc5d8f43-ef05-4d71-ba1b-ac30896fc299")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d312cb3a-b250-4da3-86d4-b07c4e2584c8")
 	)
 	(wire
 		(pts
@@ -6141,6 +6263,30 @@
 			)
 		)
 	)
+	(global_label "OUT_VBUS"
+		(shape input)
+		(at 93.98 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43b794b0-34d0-4ed0-9cdc-817278155dda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MUX_IN2"
 		(shape input)
 		(at 30.48 219.71 180)
@@ -6551,7 +6697,7 @@
 	)
 	(global_label "CC1"
 		(shape input)
-		(at 34.29 101.6 180)
+		(at 87.63 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6561,31 +6707,7 @@
 		)
 		(uuid "7bb1bb62-c585-499f-822a-df3611b15a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.5553 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "U5_ILM"
-		(shape input)
-		(at 287.02 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c13068d-82e7-41a2-b74e-ecd66e2a20ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.4429 191.77 0)
+			(at 80.8953 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,6 +6812,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "OUT_VBUS"
+		(shape input)
+		(at 73.66 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97632ceb-e10b-4c1c-9b65-053cf6e7643e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7031,7 +7177,7 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 34.29 99.06 180)
+		(at 87.63 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7041,7 +7187,7 @@
 		)
 		(uuid "d63de466-7813-40fc-8714-39e979c73ae7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.5553 99.06 0)
+			(at 80.8953 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,30 +7364,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "U5_ILM"
-		(shape input)
-		(at 264.16 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9143996-7079-4732-9748-cf83621f1e26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.7371 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7797,7 +7919,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 85.09 106.68 90)
+		(at 101.6 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7808,7 +7930,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d7a5674-87a0-4bf8-80c6-d6cb5be3fd21")
 		(property "Reference" "#PWR0285"
-			(at 88.9 106.68 0)
+			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,7 +7941,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 81.28 106.6799 90)
+			(at 97.79 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7830,7 +7952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 106.68 0)
+			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +7963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 106.68 0)
+			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7852,7 +7974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 85.09 106.68 0)
+			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +7998,7 @@
 	)
 	(symbol
 		(lib_id "Devboard_Symbols:TVS2201DRBR")
-		(at 104.14 87.63 0)
+		(at 104.14 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7887,7 +8009,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e550b9b-8ac3-4de5-8a04-632a74b9a6c1")
 		(property "Reference" "U1"
-			(at 104.14 74.93 0)
+			(at 104.14 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +8019,7 @@
 			)
 		)
 		(property "Value" "TVS2201DRBR"
-			(at 104.14 77.47 0)
+			(at 104.14 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7907,7 +8029,7 @@
 			)
 		)
 		(property "Footprint" "Devboard_Footprints:VSON-8_L3.0-W3.0-P0.65-BL-EP"
-			(at 104.14 102.87 0)
+			(at 104.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +8040,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1849889.pdf"
-			(at 104.14 105.41 0)
+			(at 104.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +8051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 87.63 0)
+			(at 104.14 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +8062,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 104.14 107.95 0)
+			(at 104.14 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7951,7 +8073,7 @@
 			)
 		)
 		(property "MPN" "TVS2201DRBR"
-			(at 104.14 110.49 0)
+			(at 104.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,7 +8084,7 @@
 			)
 		)
 		(property "LCSC Part" "C1849889"
-			(at 104.14 113.03 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,7 +8527,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 106.68 90)
+		(at 109.22 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8416,7 +8538,7 @@
 		(fields_autoplaced yes)
 		(uuid "15e2459f-3f8c-432c-ba38-f07efb5a42d4")
 		(property "Reference" "#PWR0286"
-			(at 99.06 106.68 0)
+			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,7 +8549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 106.6799 90)
+			(at 113.03 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8438,7 +8560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 106.68 0)
+			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 106.68 0)
+			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 106.68 0)
+			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,6 +8999,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 29.21 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b3d4119-c6f3-46df-a4db-b4062d56e321")
+		(property "Reference" "R103"
+			(at 26.416 110.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 26.67 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.21 111.252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e0fa3ca-43ae-40fd-9333-ca03a9fa8a75")
+		)
+		(pin "1"
+			(uuid "1c0a4cba-9c5f-4b60-8ffd-eb24f7437337")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Devboard_Symbols:TPS2121RUXR")
 		(at 66.04 198.12 0)
 		(unit 1)
@@ -9099,7 +9302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 124.46 0)
+		(at 72.39 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9110,7 +9313,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ddc9a68-33b3-4918-9b9e-3577362793c9")
 		(property "Reference" "C6"
-			(at 60.96 123.1899 0)
+			(at 76.2 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9121,7 +9324,7 @@
 			)
 		)
 		(property "Value" "100uF 35V"
-			(at 60.96 125.7299 0)
+			(at 76.2 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9132,7 +9335,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 58.1152 128.27 0)
+			(at 73.3552 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 124.46 0)
+			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +9357,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 124.46 0)
+			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9579,7 +9782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 82.55 90)
+		(at 114.3 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9590,7 +9793,7 @@
 		(fields_autoplaced yes)
 		(uuid "295927fe-79e6-495f-b278-a07f0c879d17")
 		(property "Reference" "#PWR016"
-			(at 120.65 82.55 0)
+			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +9804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 82.5499 90)
+			(at 118.11 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9612,7 +9815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 82.55 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 82.55 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,7 +9837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 82.55 0)
+			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9891,6 +10094,84 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f0bd4ec-f632-46be-95d1-ca236cc6ce38")
+		(property "Reference" "#PWR075"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa9ee830-46f7-44eb-bad6-40e3ee36f591")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10290,7 +10571,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 95.25 0)
+		(at 104.14 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10301,7 +10582,7 @@
 		(fields_autoplaced yes)
 		(uuid "354f3bd2-3ac5-4aec-a824-65206fdfea05")
 		(property "Reference" "#PWR032"
-			(at 104.14 101.6 0)
+			(at 104.14 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10312,7 +10593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 100.33 0)
+			(at 104.14 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10322,7 +10603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 95.25 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10333,7 +10614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 95.25 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 95.25 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,7 +10649,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 290.83 191.77 90)
+		(at 267.97 208.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10378,7 +10659,7 @@
 		(dnp no)
 		(uuid "3561e5e8-6971-47ae-af56-5f193b5361ef")
 		(property "Reference" "R7"
-			(at 303.276 191.262 90)
+			(at 280.416 207.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10389,7 +10670,7 @@
 			)
 		)
 		(property "Value" "750Ω"
-			(at 292.862 191.77 90)
+			(at 270.002 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10400,7 +10681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 290.83 193.548 90)
+			(at 267.97 210.058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 191.77 0)
+			(at 267.97 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10422,7 +10703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 290.83 191.77 0)
+			(at 267.97 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,7 +11455,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 57.15 120.65 270)
+		(at 72.39 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11185,7 +11466,7 @@
 		(fields_autoplaced yes)
 		(uuid "431d78ae-ed86-4440-a4e7-37a6d89b7fb4")
 		(property "Reference" "#PWR039"
-			(at 53.34 120.65 0)
+			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11196,7 +11477,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 60.96 120.6499 90)
+			(at 76.2 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11207,7 +11488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 120.65 0)
+			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11218,7 +11499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 120.65 0)
+			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11229,7 +11510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 120.65 0)
+			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11465,7 +11746,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 88.9 106.68 0)
+		(at 105.41 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11476,7 +11757,7 @@
 		(fields_autoplaced yes)
 		(uuid "469eff95-a4bc-44de-bdca-459472eb4e38")
 		(property "Reference" "D7"
-			(at 88.9 100.33 0)
+			(at 105.41 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11486,7 +11767,7 @@
 			)
 		)
 		(property "Value" "SMBJ20A"
-			(at 88.9 102.87 0)
+			(at 105.41 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11496,7 +11777,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 88.9 106.68 0)
+			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 106.68 0)
+			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11799,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 88.9 106.68 0)
+			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,6 +11910,85 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 25.4 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4adec12f-58bd-4fa2-8125-e244c442bb37")
+		(property "Reference" "#PWR017"
+			(at 29.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 21.59 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 25.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2340bab-d1d9-4b11-a0cb-09b2e051b8c1")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11872,7 +12232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 90.17 90)
+		(at 114.3 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11883,7 +12243,7 @@
 		(fields_autoplaced yes)
 		(uuid "52a8e6b3-2311-47b8-bb24-c70245a9aa9a")
 		(property "Reference" "#PWR030"
-			(at 120.65 90.17 0)
+			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11894,7 +12254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 90.1699 90)
+			(at 118.11 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11905,7 +12265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 90.17 0)
+			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11916,7 +12276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 90.17 0)
+			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11927,7 +12287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 90.17 0)
+			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,6 +12383,84 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54199c66-804d-4f84-b22f-6277f3d1712e")
+		(property "Reference" "#PWR0360"
+			(at 33.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.322 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215d18c4-997a-48dc-b6c5-8dbe829f6931")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR0360")
 					(unit 1)
 				)
 			)
@@ -12180,6 +12618,85 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 35.56 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5867c9b5-38c2-4769-a903-bb82e5db26d1")
+		(property "Reference" "#PWR015"
+			(at 39.37 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 31.75 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 35.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4774a0f6-0427-4306-b211-956ce9fbee5d")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12427,85 +12944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 93.98 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5af66908-ae3e-4147-8208-6bcc4284868c")
-		(property "Reference" "#PWR017"
-			(at 97.79 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 90.17 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e89709cf-6bf1-4b7c-8eff-3d50ae33c8e2")
-		)
-		(instances
-			(project "Devboard"
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 219.71 270)
 		(unit 1)
@@ -12743,8 +13181,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 93.98 82.55 90)
+		(lib_id "Device:R")
+		(at 77.47 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12752,21 +13190,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e2d1c63-b809-48dc-88bd-46208d3f4945")
-		(property "Reference" "#PWR015"
-			(at 97.79 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 90.17 82.5499 90)
+		(uuid "5e86cb79-5c64-4716-91a7-73826ed43465")
+		(property "Reference" "R9"
+			(at 82.55 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12776,8 +13202,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 82.55 0)
+		(property "Value" "750Ω"
+			(at 79.502 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 118.618 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12788,7 +13225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 77.47 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,8 +13235,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 82.55 0)
+		(property "Description" "Resistor"
+			(at 77.47 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,14 +13245,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "406cc35a-9273-44fb-9e0a-26201850c3ad")
 		)
 		(pin "1"
-			(uuid "24c606cb-0441-4f6d-8f41-6516c85f5c39")
+			(uuid "b7878acc-024d-4859-ad26-83af553a751e")
 		)
 		(instances
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
-					(reference "#PWR015")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12975,6 +13415,84 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "602b1266-14b4-4f8a-9186-4942f181c45f")
+		(property "Reference" "#PWR0363"
+			(at 87.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 84.328 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3095ed98-5bad-4745-947d-5a4aed0794ca")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR0363")
 					(unit 1)
 				)
 			)
@@ -13898,6 +14416,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 26.67 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "767c1b73-d46a-4d9c-9dbf-b1d1535ba7c1")
+		(property "Reference" "#PWR0361"
+			(at 26.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.638 97.282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e78fe4a-d153-49a6-9df9-b79cae2b0e02")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR0361")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 558.8 195.58 0)
 		(unit 1)
@@ -14449,6 +15045,84 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b2a9a70-e7c9-44d8-9b6b-b2dbc123858d")
+		(property "Reference" "#PWR0284"
+			(at 87.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0708c03b-ca3b-4da3-aef1-b153a4e156e5")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR0284")
 					(unit 1)
 				)
 			)
@@ -15249,85 +15923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 93.98 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86351813-9b94-459d-9026-2774b1d5ffcd")
-		(property "Reference" "#PWR023"
-			(at 97.79 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 90.17 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f19e39b1-af09-415e-9785-ed7e9df06a75")
-		)
-		(instances
-			(project "Devboard"
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 527.05 76.2 90)
 		(unit 1)
@@ -15489,7 +16084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 99.06 90)
+		(at 95.25 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15499,7 +16094,7 @@
 		(dnp no)
 		(uuid "8f967d1b-ef73-460f-a835-16671f35a07d")
 		(property "Reference" "#PWR0327"
-			(at 48.26 99.06 0)
+			(at 101.6 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15510,7 +16105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 102.362 0)
+			(at 99.06 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15521,7 +16116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 99.06 0)
+			(at 95.25 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15532,7 +16127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 99.06 0)
+			(at 95.25 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15543,7 +16138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 99.06 0)
+			(at 95.25 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16514,8 +17109,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 85.09 90)
+		(lib_id "Device:R")
+		(at 26.67 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16523,32 +17118,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a59f3df2-e502-4d51-93e1-7798d6a40951")
-		(property "Reference" "#PWR018"
-			(at 120.65 85.09 0)
-			(hide yes)
+		(uuid "a2976440-3b0f-4a24-810a-e527f9211d37")
+		(property "Reference" "R105"
+			(at 24.638 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 85.0899 90)
+		(property "Value" "10k"
+			(at 26.67 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 85.09 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 28.448 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16559,7 +17153,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 85.09 0)
+			(at 26.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "de7e56f1-76cd-42e5-94e6-1fde7f3b2363")
+		)
+		(pin "1"
+			(uuid "c69e63bc-de8d-4921-be60-6c7772cc2f6c")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a59f3df2-e502-4d51-93e1-7798d6a40951")
+		(property "Reference" "#PWR018"
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16570,7 +17246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 85.09 0)
+			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16594,7 +17270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 294.64 191.77 90)
+		(at 271.78 208.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16604,7 +17280,7 @@
 		(dnp no)
 		(uuid "a632fd79-eb17-474d-81c9-d83e4692b4db")
 		(property "Reference" "#PWR046"
-			(at 300.99 191.77 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16615,7 +17291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 192.786 90)
+			(at 274.32 209.296 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16626,7 +17302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 191.77 0)
+			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16637,7 +17313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 191.77 0)
+			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16648,7 +17324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 191.77 0)
+			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17208,7 +17884,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 128.27 90)
+		(at 72.39 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17219,7 +17895,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0d4c2a6-fb2d-46d2-a847-a4b9e058af23")
 		(property "Reference" "#PWR042"
-			(at 63.5 128.27 0)
+			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,7 +17906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 128.2699 90)
+			(at 76.2 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17241,7 +17917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 128.27 0)
+			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17252,7 +17928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 128.27 0)
+			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17263,7 +17939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 128.27 0)
+			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17443,6 +18119,87 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 33.02 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7d35857-78f5-4db2-a062-2c1a1d200f17")
+		(property "Reference" "R102"
+			(at 39.878 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 33.02 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 34.798 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29f53a5f-d971-479f-91c1-bb4db8315d58")
+		)
+		(pin "1"
+			(uuid "c4f4c770-73df-4225-b907-73bb36c4d19d")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 459.74 190.5 270)
 		(unit 1)
 		(body_style 1)
@@ -17522,7 +18279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 87.63 90)
+		(at 114.3 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17533,7 +18290,7 @@
 		(fields_autoplaced yes)
 		(uuid "b82085c2-f276-44f0-8116-741f960862ec")
 		(property "Reference" "#PWR024"
-			(at 120.65 87.63 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17544,7 +18301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 87.6299 90)
+			(at 118.11 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17555,7 +18312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 87.63 0)
+			(at 114.3 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17566,7 +18323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 87.63 0)
+			(at 114.3 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17577,7 +18334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 87.63 0)
+			(at 114.3 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17673,6 +18430,87 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd7779ce-ae95-4186-b0ac-e28abd15c091")
+		(property "Reference" "R106"
+			(at 80.518 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "549Ω"
+			(at 79.502 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccb6115e-f83f-4428-bbd2-328bc4ba84fa")
+		)
+		(pin "1"
+			(uuid "781f0280-ca90-4dbf-8823-e44188187114")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -18076,7 +18914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 99.06 90)
+		(at 91.44 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18086,7 +18924,7 @@
 		(dnp no)
 		(uuid "c5cc5b20-17da-4bac-ba4e-7449c78099d3")
 		(property "Reference" "R94"
-			(at 39.878 97.028 90)
+			(at 93.218 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18097,7 +18935,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 40.386 99.06 90)
+			(at 93.726 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18108,7 +18946,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 100.838 90)
+			(at 91.44 74.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18119,7 +18957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 99.06 0)
+			(at 91.44 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18130,7 +18968,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 99.06 0)
+			(at 91.44 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18475,6 +19313,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 77.47 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc933448-fec1-44fb-8b21-02bc223c4e67")
+		(property "Reference" "C111"
+			(at 89.154 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF 25V"
+			(at 89.662 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 120.9548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76aff1ec-e832-47e4-bee7-361cc1fe859d")
+		)
+		(pin "1"
+			(uuid "e2bfa4bf-6307-46f4-8202-56eea8d605a2")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 29.21 26.67 90)
 		(unit 1)
@@ -18710,85 +19627,6 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 93.98 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf444ea9-188f-43f8-916a-da2ef263bd35")
-		(property "Reference" "#PWR029"
-			(at 97.79 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 90.17 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "328a9b44-f877-4ea7-a10a-959645917c8f")
-		)
-		(instances
-			(project "Devboard"
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19063,6 +19901,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 17.78 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d34dca27-1fb8-45fa-b698-e9fae39e7bad")
+		(property "Reference" "#PWR023"
+			(at 17.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 17.78 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7de5f0bc-588f-48da-9c8e-728a8ae49f74")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 109.22 270)
 		(unit 1)
@@ -19135,6 +20051,84 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
 					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5a1d399-430c-42c3-bc6b-e28ec8a3ed5e")
+		(property "Reference" "#PWR0362"
+			(at 87.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82235e58-6edf-4f09-93f3-2eab68a48260")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "#PWR0362")
 					(unit 1)
 				)
 			)
@@ -19610,6 +20604,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Devboard_Symbols:TPS259470ARPWR")
+		(at 54.61 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5fd1140-cf11-4a31-998e-315581b27ad8")
+		(property "Reference" "U24"
+			(at 54.61 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS259470ARPWR"
+			(at 54.61 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:VQFN-10_L2.0-W2.0-P0.45-TL"
+			(at 54.61 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3662799.pdf"
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 54.61 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS259470ARPWR"
+			(at 54.61 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3662799"
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19b05178-4776-4639-ab3d-f692f2c0f145")
+		)
+		(pin "4"
+			(uuid "3fdc0628-3b0f-453d-a369-6f262f6d6fe0")
+		)
+		(pin "5"
+			(uuid "cd5f7df7-2cd6-4ec2-b2fb-f00addef8286")
+		)
+		(pin "6"
+			(uuid "6b2044a3-dcd7-4ea6-a341-b2e00b9c62b8")
+		)
+		(pin "1"
+			(uuid "36626148-db8f-40cd-aa87-9d5b722399b4")
+		)
+		(pin "9"
+			(uuid "ef47bf4b-2ded-4e88-b411-c21df76527b0")
+		)
+		(pin "8"
+			(uuid "711c24d1-f56c-46df-843a-c0f3985608ba")
+		)
+		(pin "7"
+			(uuid "0315c09c-46bc-4639-a271-169d2739beca")
+		)
+		(pin "10"
+			(uuid "c37b506e-867b-46c1-b18e-8ef0663f9e9c")
+		)
+		(pin "3"
+			(uuid "fc7a2cdb-a436-4247-9a0c-fd4f3888d9a3")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 468.63 119.38 270)
 		(unit 1)
@@ -19851,7 +20982,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 101.6 90)
+		(at 91.44 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19861,7 +20992,7 @@
 		(dnp no)
 		(uuid "eea15be8-36e5-45bc-a345-9945d2cb34da")
 		(property "Reference" "R95"
-			(at 39.878 103.632 90)
+			(at 93.218 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19872,7 +21003,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 40.386 101.6 90)
+			(at 93.726 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19883,7 +21014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 103.378 90)
+			(at 91.44 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19894,7 +21025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 101.6 0)
+			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19905,7 +21036,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 101.6 0)
+			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20171,6 +21302,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 21.59 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6a80ce1-dfa7-425c-9c26-e1b79375eb62")
+		(property "Reference" "R104"
+			(at 21.59 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "124k"
+			(at 21.59 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 21.59 107.442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d2c1726-8d79-4372-b5f3-6fc95907138b")
+		)
+		(pin "1"
+			(uuid "958070e5-10f7-47a3-bea9-657798391c87")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/880a94ed-a974-4da2-b4ca-cb72436ddb06"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Devboard_Symbols:PJ-102AH_C3096093")
 		(at 455.295 88.9 180)
 		(unit 1)
@@ -20288,7 +21498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 101.6 90)
+		(at 95.25 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20298,7 +21508,7 @@
 		(dnp no)
 		(uuid "f9bfc7ed-e096-4f6d-92d8-c6e89ff01ddf")
 		(property "Reference" "#PWR0328"
-			(at 48.26 101.6 0)
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20309,7 +21519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 102.362 0)
+			(at 99.06 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20320,7 +21530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 101.6 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20331,7 +21541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 101.6 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20342,7 +21552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 101.6 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

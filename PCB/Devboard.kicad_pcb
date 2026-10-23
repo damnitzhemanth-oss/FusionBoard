@@ -2981,6 +2981,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3198,7 +3199,7 @@
 			(uuid "6e78bbd3-493c-4466-b875-6793af5c6800")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8259,6 +8260,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8657,7 +8659,7 @@
 			(uuid "49dfadca-3775-4476-94b1-c3e2aac29348")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SON-12_L4.0-W2.5-H1-P0.40-BL-EP.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SON-12_L4.0-W2.5-H1-P0.40-BL-EP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10331,6 +10333,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10530,7 +10533,7 @@
 			(uuid "94af5679-174a-464f-b259-251a16333e5c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WSON-6_L1.5-W1.5-H0.8-P0.50-TL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/WSON-6_L1.5-W1.5-H0.8-P0.50-TL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12394,6 +12397,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12624,7 +12628,7 @@
 			(uuid "c00d00d2-2846-42dd-8991-d29fbde9b358")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14028,6 +14032,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14424,7 +14429,7 @@
 			(uuid "65131a2c-9a0c-477c-a1a3-aeeefd6f2533")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16974,6 +16979,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17542,7 +17548,7 @@
 			(uuid "72f7ae61-0f2d-4ad8-ae29-90b21af801bf")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TO-263-7_L10.2-W9.2-P1.27-LS15.4.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/TO-263-7_L10.2-W9.2-P1.27-LS15.4.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21113,6 +21119,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21436,7 +21443,7 @@
 			(uuid "51edd76b-c39a-4d2b-aac6-bd561f328bf0")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-HR-12_L2.5-W2.0-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-HR-12_L2.5-W2.0-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22242,7 +22249,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22783,6 +22789,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23158,7 +23165,7 @@
 			(uuid "9097a015-b72f-4462-8b3a-4468498bd4f6")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-16_L3.0-W3.0-P0.50-EP1.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-16_L3.0-W3.0-P0.50-EP1.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24986,7 +24993,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -26432,7 +26438,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29214,7 +29219,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29324,7 +29328,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36176,6 +36179,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -36535,7 +36539,7 @@
 			(uuid "9e358776-84ae-43df-9f4c-1b41029121b5")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-10_L2.0-W2.0-P0.45-TL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-10_L2.0-W2.0-P0.45-TL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36603,6 +36607,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37667,6 +37672,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -38063,7 +38069,7 @@
 			(uuid "59923314-275e-4e72-b4e7-aaf9180eba70")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WQFN-20_L3.0-W3.0-H0.8-P0.40-TL-EP1.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/WQFN-20_L3.0-W3.0-H0.8-P0.40-TL-EP1.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48894,7 +48900,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -52386,6 +52391,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -52615,7 +52621,7 @@
 			(uuid "b0de6985-e6c4-4038-8294-2dc1fbff2935")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/DC-IN-TH_PJ-102AH.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/DC-IN-TH_PJ-102AH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58634,6 +58640,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -59102,7 +59109,7 @@
 			(uuid "0e11994d-a07e-4c08-9ed6-50d9ab47e9f3")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-CLIP-28_L4.5-W3.5-H0.9-P0.40-BL-EP.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-CLIP-28_L4.5-W3.5-H0.9-P0.40-BL-EP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59462,6 +59469,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -60672,6 +60680,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -60997,7 +61006,7 @@
 			(uuid "6b15ed99-8bd9-40b7-b186-1bc8139b93e4")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L3.0-W3.0-H0.9-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L3.0-W3.0-H0.9-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -63935,6 +63944,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -64331,7 +64341,7 @@
 			(uuid "24248198-2189-47ec-9a12-4f63b18a202f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -65275,6 +65285,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65739,7 +65750,7 @@
 			(uuid "a21eace7-91ea-47d6-bfdd-c485d3dbad41")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-24_L4.0-W4.0-P0.50-TL-EP2.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-24_L4.0-W4.0-P0.50-TL-EP2.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -67413,6 +67424,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -69207,6 +69219,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -69668,6 +69681,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -70113,7 +70127,7 @@
 			(uuid "4578c18c-87ac-497c-9b37-b480f20467ed")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-24P-SMD.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C-24P-SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -70270,6 +70284,110 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(segment
+		(start 16.55 11.55)
+		(end 19.55 11.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "07503550-42cc-47e4-a322-b765f9244c7f")
+	)
+	(segment
+		(start 13.55 15.55)
+		(end 16.55 12.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "7333d2d6-f6ab-4103-9d68-3f02257d2bfa")
+	)
+	(segment
+		(start 18.55 9.55)
+		(end 19.55 9.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "98ea104f-cc28-4a8a-aa91-bd9e8179e38b")
+	)
+	(segment
+		(start 12.55 12.55)
+		(end 14.55 14.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "e9406fc0-7c50-42b2-908e-96533d466433")
+	)
+	(segment
+		(start 17.55 10.55)
+		(end 18.55 10.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "ee965c70-a861-458d-b5b4-e5fb1bacb964")
+	)
+	(segment
+		(start 12.55 14.55)
+		(end 14.55 12.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+0V9_VCU_GT")
+		(uuid "fab49307-cd34-41e9-b688-5b5e224f9984")
+	)
+	(segment
+		(start 14.55 21.55)
+		(end 14.54 21.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+1V8")
+		(uuid "789f538d-ee4c-4210-8dd7-1afebdb6b904")
+	)
+	(via
+		(at 10.55 19.55)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+1V8")
+		(uuid "12093671-314a-49dd-86d2-260d39e28050")
+	)
+	(via
+		(at 14.54 21.54)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "+1V8")
+		(uuid "8f8c3a1d-ed38-4638-a0cb-84c9104a7912")
+	)
+	(segment
+		(start 12.55 19.55)
+		(end 10.55 19.55)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "+1V8")
+		(uuid "3d6f5ec1-5630-40d6-aff5-31642f9a4869")
+	)
+	(segment
+		(start 14.54 21.54)
+		(end 12.55 19.55)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "+1V8")
+		(uuid "e401f0de-1a5b-48f9-b610-7541537e343d")
+	)
+	(segment
+		(start 16.92 10.92)
+		(end 17.07 10.92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "unconnected-(U3-GND-PadR9)")
+		(uuid "86746044-cc6f-4ac2-9391-4bbc9db97fca")
+	)
+	(segment
+		(start 16.55 10.55)
+		(end 16.92 10.92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "unconnected-(U3-GND-PadR9)")
+		(uuid "e0a63ffe-a49a-493d-a481-304dac1ea00a")
 	)
 	(group ""
 		(uuid "871d0534-6a87-4531-972f-e54428e30b6a")
