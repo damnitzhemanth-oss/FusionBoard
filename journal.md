@@ -2,14 +2,23 @@
 
 *Author : Hemanth*
 *YSWS : Pixl*
+*Goal : Make a beacon worthy project and put up at least 90 hours*
 
-## Day 1 : 
+---
+
+## Notes :
+
+Please read this Journal for clear day to day insights + not so funny jokes + AI Usage.
+
+---
+
+## Session 1 : 
 
 [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup)
 
 **Time : 6h 15m**
 
-I decided to make a custom Dev Board which is *Unique*, *Hard to make* and most importantly *built from scratch* with almost no **AI usage**.
+I decided to make a custom Dev Board which is *Unique*, *Hard to make* and most importantly *built from scratch* with least amount of **AI usage**. 
 
 Today I completed setup of my project, setup included Pixl Project, Github Repo, File structure and KiCad setup. 
 
@@ -17,25 +26,86 @@ I planned the design and layout, basically all my other projects till this point
 
 Today I completed Section 1 which is related to Power. It simply receives power and safely passes it to other section.
 
+**AI USAGE** : 5-15 minutes, when we search in google we get AI insights so I just read them, and used Deepseek for connections in only two instants where I didnt understand connections of MUX so I used Deepseek
+
 ![Schematic](PCB\Devboard\images\Schematic\01_Power\S01_Full.png)
 
-## Day 2 :
+---
+
+## Session 2 :
 
 [Lapse](https://lapse.hackclub.com/timelapse/RgZXFPeaefZ3)
 
 **Time : 2h 30m**
 
-Today I completed Section 1 and worked on Section 2. Section 2 is about battery charging + power gauge. I used AI in three instances, once to check pin names of Shunt Resistor and to verify nets integrity. This was less than 2 minutes. Thus less than 1% of my project.
+Today I completed Section 1 and worked on Section 2. Section 2 is about battery charging + power gauge. 
+
+**AI USAGE** : 2 minutes, once I used to check pin names of a shunt resistor and ideal connection (Search insights). And once to verify sanity.
 
 ![Schematic](PCB\Devboard\images\Schematic\02_Battery\S2.png)
 
-## Day 3 : 
+---
+
+## Session 3 : 
 
 [Lapse](https://lapse.hackclub.com/timelapse/42OSYWENe3S8)
 
-Today I completed Section 3 which is responsible to step-down main power line into different voltages like +5V, +3.3V, +0.8V, +1.5V.
+**Time : 4 hrs 18 min**
 
+Today I completed Section 3 which is responsible to step-down main power line into different voltages like +5V, +3.3V, +0.8V, +1.5V.
+And this time I actually read datasheets !!
 
 ![Schematic](PCB\Devboard\images\Schematic\03_Power_Tree\S3_F.png)
 
 And I created new repo !!
+
+**AI USAGE** : None.
+
+---
+
+## Session 4 :
+
+**Time : 11 hrs 52 min**
+
+
+[Lapse](https://lapse.hackclub.com/timelapse/BUebwhysWVGx)
+
+Fixed a few mistakes in previous section, chose 900 pin Zynq (regretting my life choices), and discovered KiPart a python package to create Symbol, and created footprint manually.
+
+**AI USAGE**: None.
+
+---
+
+## Session 5 :
+
+[Lapse](https://lapse.hackclub.com/timelapse/Iurz7R1SKVbi)
+
+**Time : 7hr 32min**
+
+Began on DDR4 memory and realized that I followed wrong datasheet, and had to scrap it and begin over.
+
+
+**AI USAGE** : Two small instances (less than 2 minutes) for understanding chinese parts of my datasheet.
+
+---
+
+##  Session 6 :
+
+[Lapse](https://lapse.hackclub.com/timelapse/Otw7jyXCwGHQ)
+
+**Time : 2hr 42 min**
+
+Fixed mistakes and began on Zynq, completed power rails + capacitors.
+
+**AI USAGE**: None.
+
+---
+
+## Decision 
+
+I decided to not use AI at all (very strict). Not even for understanding something. (Google search insights excluded).
+
+---
+
+## Session 7 : 
+
