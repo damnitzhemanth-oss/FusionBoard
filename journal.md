@@ -26,7 +26,7 @@ I planned the design and layout, basically all my other projects till this point
 
 Today I completed Section 1 which is related to Power. It simply receives power and safely passes it to other section.
 
-**AI USAGE** : 5-15 minutes, when we search in google we get AI insights so I just read them, and used Deepseek for connections in only two instants where I didnt understand connections of MUX so I used Deepseek
+**AI USAGE** : 5-15 minutes, when we search in google we get AI insights so I just read them, and used Deepseek for connections in only two instants where I didn't understand connections of MUX so I used Deepseek
 
 ![Schematic](PCB\Devboard\images\Schematic\01_Power\S01_Full.png)
 
@@ -114,6 +114,7 @@ I decided to not use AI at all (very strict). Not even for understanding somethi
 **Time : 1 hr 19 min**
 
 Before I begin Zynq again I corrected few mistakes, and checked from beginning. Read Zynq User guide once again.
+Restructured Repo.
 
 - [x] Section 1
 - [x] Section 2
@@ -147,3 +148,30 @@ Before I begin Zynq again I corrected few mistakes, and checked from beginning. 
 **AI usage score:** `0 = none`, `5 = Highest in this log.` (Session 1); brief or minor lookups scored as `1`. Google search AI insights are counted only where the log explicitly mentions them.
 
 **Decision after Session 6:** strict no-AI policy — not even for understanding something; Google search insights excluded.
+
+---
+
+## Session 8
+
+[Lapse](https://lapse.hackclub.com/timelapse/mQAbmNkva20k)
+
+**Time : 7 hrs**
+
+Today I read Zynq Ultrascale+ user guide + datasheets and added missing power lines and completed wiring up power portions of Zynq. Then I added decoupling caps (200+). Next I planned future components like USB2,USB3 and created global labels for I2C, System Monitor etc. 
+
+Next Steps : 
+- [ ] DDR4 Memory
+- [ ] Peripherals
+
+Challenges :
+
+We were facing severe droughts here in our area, fortunately it rained today but electricity went off. So 9 hours turned into 7 hours, but in free time I read datasheets , don't know whether I need to journal it.
+
+Feat :
+
+Nearing 50 hrs !!
+
+**AI USAGE** : None.
+
+---
+
