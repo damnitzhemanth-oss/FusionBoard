@@ -115,13 +115,35 @@ I decided to not use AI at all (very strict). Not even for understanding somethi
 
 Before I begin Zynq again I corrected few mistakes, and checked from beginning. Read Zynq User guide once again.
 
--[X] Section 1
--[X] Section 2
--[X] Section 3
--[X] Check 1
--[X] Check 2
--[] Power Section, adding missing nets.
--[] Zynq
--[] DDR4 Memory
+- [x] Section 1
+- [x] Section 2
+- [x] Section 3
+- [x] Check 1
+- [x] Check 2
+- [ ] Power Section, adding missing nets.
+- [ ] Zynq
+- [ ] DDR4 Memory
+
 
 **AI USAGE** : None.
+
+---
+
+## Summary of WEEK 1
+
+
+| Session | Time | Work completed / summary | Lapse link | AI usage (0–5) | AI usage notes |
+|---|---:|---|---|---:|---|
+| 1 | 6 hr 15 min | Project setup: Pixl project, GitHub repo, file structure, KiCad setup; planned hierarchical sheets; completed Power Section 1. | [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup) | **3** | 5–15 min total: Google AI insights; DeepSeek used twice for MUX connections. |
+| 2 | 2 hr 30 min | Completed Section 1; worked on Section 2: battery charging + power gauge. | [Lapse](https://lapse.hackclub.com/timelapse/RgZXFPeaefZ3) | **1** | ~2 min: shunt resistor pin names/ideal connection; sanity check via search insights. |
+| 3 | 4 hr 18 min | Completed Section 3: power tree stepping down to +5V, +3.3V, +0.8V, +1.5V; read datasheets; created new repo. | [Lapse](https://lapse.hackclub.com/timelapse/42OSYWENe3S8) | **0** | None. |
+| 4 | 11 hr 52 min | Fixed previous-section mistakes; chose 900-pin Zynq; used KiPart to create symbol; created footprint manually. | [Lapse](https://lapse.hackclub.com/timelapse/BUebwhysWVGx) | **0** | None. |
+| 5 | 7 hr 32 min | Began DDR4 memory; found wrong datasheet and scrapped/restarted. | [Lapse](https://lapse.hackclub.com/timelapse/Iurz7R1SKVbi) | **1** | <2 min total: two small instances for understanding Chinese parts of datasheet. |
+| 6 | 2 hr 42 min | Fixed mistakes; began Zynq; completed power rails + capacitors. | [Lapse](https://lapse.hackclub.com/timelapse/Otw7jyXCwGHQ) | **0** | None. |
+| 7 | 1 hr 19 min | Corrected mistakes; rechecked from beginning; reread Zynq User Guide; updated checklist: S1–S3 + Check 1/2 done; power missing nets, Zynq, DDR4 pending. | [Lapse](https://lapse.hackclub.com/timelapse/XaJOH0bwTB7O) | **0** | None. |
+| 8 | ~ 4 hr | Journal, etc | - | 0 | None. |
+| **Total** | **40 hr 12 min** |  |  |  |  |
+
+**AI usage score:** `0 = none`, `5 = Highest in this log.` (Session 1); brief or minor lookups scored as `1`. Google search AI insights are counted only where the log explicitly mentions them.
+
+**Decision after Session 6:** strict no-AI policy — not even for understanding something; Google search insights excluded.
