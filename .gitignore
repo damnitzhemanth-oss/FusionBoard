@@ -2,3 +2,8 @@
 PCB/Devboard/.history/
 PCB/Devboard/Netlists/
 **/_restore_backup*/
+**/~Devboard.kicad_pro.lck
+**/sym-lib-table
+**/fp-lib-table
+**/design-block-lib-table
+.history/

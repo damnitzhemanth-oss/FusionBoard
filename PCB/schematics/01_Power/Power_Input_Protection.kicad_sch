@@ -20635,7 +20635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:VQFN-10_L2.0-W2.0-P0.45-TL"
+		(property "Footprint" "Devboard_Footprints:VQFN-10_L2.0-W2.0-P0.45-TL"
 			(at 54.61 132.08 0)
 			(hide yes)
 			(show_name no)
