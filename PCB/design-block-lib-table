@@ -1,4 +1,0 @@
-(design_block_lib_table
-	(version 7)
-	(lib (name "Devboard_Custom") (type "KiCad") (uri "${KIPRJMOD}/libraries/Devboard_custom.kicad_sym") (options "") (descr ""))
-)

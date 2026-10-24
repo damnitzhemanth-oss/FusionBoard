@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "564ea60c-7ec1-4e80-8c24-591398d8d3a9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 33.655 33.02)
+		(size 50.8 48.895)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "67e8dda6-f6da-452b-ac2a-efb32270ca28")
+		(property "Sheetname" "Zynq CORE"
+			(at 33.655 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04a_Zynq_Core.kicad_sch"
+			(at 33.655 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
+					(page "6")
+				)
+			)
+		)
+	)
+)

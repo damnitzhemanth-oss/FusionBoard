@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -703,7 +703,7 @@
         "uuid": "f4f7837f-dd80-4f77-b150-4534de1c10d6"
       }
     ],
-    "used_designators": "#FLG1-30,R1-106,C1-52,C54-251,USB1-2,U1-27,DC1,Q1-2,RT1,D1-9,D24,C_shield1-2,R_shield1,#PWR1-507,L1-10,TH1,Cr1,TP1-6,FB1-6,Y1-2,J1-8,SW1,MK1",
+    "used_designators": "#FLG1-36,R1-106,C1-52,C54-251,USB1-2,U1-27,DC1,Q1-2,RT1,D1-9,D24,C_shield1-2,R_shield1,#PWR1-507,L1-10,TH1,Cr1,TP1-6,FB1-6,Y1-2,J1-8,SW1,MK1",
     "variants": []
   },
   "sheets": [
@@ -724,12 +724,12 @@
       "Power Tree"
     ],
     [
-      "7de3024d-34d0-4d0e-b0a3-d5132a52436c",
-      "ZYNQ CORE"
+      "b48c92d5-ffe6-40f3-9dff-a09c41a730f7",
+      "Zynq Section"
     ],
     [
-      "36059d2f-5ca2-4989-b613-260b615066b7",
-      "DDR4 Memory"
+      "67e8dda6-f6da-452b-ac2a-efb32270ca28",
+      "Zynq CORE"
     ]
   ],
   "text_variables": {},
