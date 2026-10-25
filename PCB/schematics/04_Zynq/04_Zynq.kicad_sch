@@ -6,6 +6,98 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 144.78 33.02)
+		(size 50.8 48.895)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3c4a5d01-ee05-4aff-9ef4-dbc6214ba286")
+		(property "Sheetname" "Peripherals"
+			(at 144.78 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04c_Zynq_PS_Perhipherals.kicad_sch"
+			(at 144.78 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 33.02)
+		(size 50.8 48.895)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b3eaad5-14f6-48dd-8c1b-7de5efeee82d")
+		(property "Sheetname" "DDR4 Memory"
+			(at 88.9 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04b_Zynq_DDR4.kicad_sch"
+			(at 88.9 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.655 33.02)
 		(size 50.8 48.895)
 		(exclude_from_sim no)

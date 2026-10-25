@@ -147,7 +147,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -157,7 +156,7 @@
 		)
 		(uuid "b48c92d5-ffe6-40f3-9dff-a09c41a730f7")
 		(property "Sheetname" "Zynq Section"
-			(at 323.215 13.8934 0)
+			(at 356.87 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167,7 +166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\04_Zynq\\04_Zynq.kicad_sch"
+		(property "Sheetfile" "schematics/04_Zynq/04_Zynq.kicad_sch"
 			(at 323.215 93.9296 0)
 			(show_name no)
 			(do_not_autoplace no)
