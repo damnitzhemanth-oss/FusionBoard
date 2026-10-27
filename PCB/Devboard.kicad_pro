@@ -703,7 +703,7 @@
         "uuid": "f4f7837f-dd80-4f77-b150-4534de1c10d6"
       }
     ],
-    "used_designators": "#FLG1-43,R1-202,C1-52,C54-448,USB1-3,DC1,U1-47,Q1-2,D1-9,D24,RT1,C_shield1-2,R_shield1,#PWR1-972,L1-10,TH1,Cr1,TP1-6,FB1-6,Y1-4,J1-22,SW1,MK1,U_RAM5-8,Card1-2",
+    "used_designators": "#FLG1-43,R1-202,C1-52,C54-448,USB1-4,DC1,U1-47,Q1-2,D1-9,D24,RT1,C_shield1-2,R_shield1,#PWR1-972,L1-11,TH1,Cr1,TP1-6,FB1-6,Y1-4,J1-22,SW1,MK1,U_RAM5-8,Card1-2,CN1",
     "variants": []
   },
   "sheets": [

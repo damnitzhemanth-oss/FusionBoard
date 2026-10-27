@@ -27162,7 +27162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-24P-SMD"
+		(property "Footprint" "Devboard_Footprints:USB-C-SMD_TYPE-C-24P-SMD"
 			(at 716.28 582.93 0)
 			(hide yes)
 			(show_name no)
