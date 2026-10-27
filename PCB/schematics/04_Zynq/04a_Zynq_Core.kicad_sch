@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "3eafa4dd-e95a-4606-856c-b1ef44fe13c8")
-	(paper "User" 1300 1300)
+	(paper "User" 1300 1500)
 	(title_block
 		(date "2026-10-24")
 		(company "Hemanth and CO")
@@ -22272,6 +22272,16 @@
 			(type default)
 		)
 		(uuid "2bf7daf9-57bf-4b02-b923-6392f7aa73d9")
+	)
+	(wire
+		(pts
+			(xy 1008.38 582.93) (xy 1014.73 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1087c5-6f9e-4b0a-a2d0-6f21717ee306")
 	)
 	(wire
 		(pts

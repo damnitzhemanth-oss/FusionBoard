@@ -175,3 +175,27 @@ Nearing 50 hrs !!
 
 ---
 
+
+## Session 9
+
+[Lapse](https://lapse.hackclub.com/timelapse/UzQu37tnS4zK)
+
+**Time : 6 hrs 50 min**
+
+Today I completed DDR4 Memory section (4GB of memory). And I started working on peripherals (completed SD Card, Ethernet etc)
+My goal today was 9 hrs but I read datasheets offline so I was not able to hit it. And my phone's USB Port is damaged so USB tethering had problems (this is the reason I check time frequently in Lapse). 
+Next Steps : 
+- [x] DDR4 Memory
+- [ ] Complete Peripherals
+
+Challenges :
+
+Loose USB + Power Cuts.
+
+Feat :
+
+50 hours completed !!!
+
+**AI USAGE** : None.
+
+---

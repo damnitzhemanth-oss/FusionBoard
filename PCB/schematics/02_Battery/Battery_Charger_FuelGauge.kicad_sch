@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "8f356ff6-adfe-4241-bd0b-935942266a07")
-	(paper "A3")
+	(paper "User" 841 800)
 	(lib_symbols
 		(symbol "Custom_Symbols:XT60"
 			(exclude_from_sim no)

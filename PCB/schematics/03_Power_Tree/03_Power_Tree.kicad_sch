@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "27ffdbd7-5663-4e91-bb72-5e4c594cdd42")
-	(paper "User" 594 600)
+	(paper "User" 841 800)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

@@ -3,8 +3,54 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "564ea60c-7ec1-4e80-8c24-591398d8d3a9")
-	(paper "A4")
+	(paper "User" 841 800)
 	(lib_symbols)
+	(sheet
+		(at 200.66 33.02)
+		(size 50.8 48.895)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19190311-b578-49b2-ac33-4fdcc5c11b9b")
+		(property "Sheetname" "High Speed Peripherals"
+			(at 200.66 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04d_Zynq_PS_HighSpeed.kicad_sch"
+			(at 200.66 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
+					(page "9")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 144.78 33.02)
 		(size 50.8 48.895)

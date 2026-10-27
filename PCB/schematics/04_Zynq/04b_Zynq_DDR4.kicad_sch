@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "ece56368-6e30-46d1-9da0-1adfd3bedaec")
-	(paper "User" 594 420)
+	(paper "User" 841 800)
 	(lib_symbols
 		(symbol "Devboard_Custom:MT40A512M16LY-075_E"
 			(exclude_from_sim no)
@@ -5318,6 +5318,16 @@
 			(type default)
 		)
 		(uuid "d672bfde-2fd1-404c-a437-453af7969834")
+	)
+	(wire
+		(pts
+			(xy 1008.38 580.39) (xy 1014.73 580.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74272ce-7bd5-4de5-9002-e1cd23b25061")
 	)
 	(wire
 		(pts
