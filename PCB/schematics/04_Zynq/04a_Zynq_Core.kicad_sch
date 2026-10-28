@@ -164,6 +164,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_zynq:xczu4evfbvb900pkg"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -20972,10 +21112,6 @@
 		(uuid "b7728d8f-7ed2-437e-b9a4-f13478c2fc89")
 	)
 	(no_connect
-		(at 943.61 582.93)
-		(uuid "b8139d45-bb97-466e-ad9d-6052e9338141")
-	)
-	(no_connect
 		(at 293.37 709.93)
 		(uuid "b9539c7d-05aa-4bc2-a988-bc0e90d3bc11")
 	)
@@ -21126,10 +21262,6 @@
 	(no_connect
 		(at 293.37 864.87)
 		(uuid "e3d08e39-ef55-441f-833a-8aed1a9e1be7")
-	)
-	(no_connect
-		(at 943.61 1108.71)
-		(uuid "e4d1e4c0-92f3-4315-ae58-de36bfe82356")
 	)
 	(no_connect
 		(at 293.37 628.65)
@@ -33479,6 +33611,30 @@
 			)
 		)
 	)
+	(global_label "USB3_VBUS_NET"
+		(shape input)
+		(at 943.61 582.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee35d567-b1f7-483b-8ab4-3e77a0747ce8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 961.8956 582.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DP_AUX_P"
 		(shape input)
 		(at 943.61 516.89 0)
@@ -45326,6 +45482,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 947.42 1108.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d8ee35e-63d9-467a-b0f4-4b6c5597b758")
+		(property "Reference" "R159"
+			(at 947.42 1110.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 947.42 1108.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 947.42 1110.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 947.42 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 947.42 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adeedc00-e9a4-4164-8715-40d2185bbb52")
+		)
+		(pin "2"
+			(uuid "f976ad0b-a030-4d7c-8798-31d197db030b")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7/67e8dda6-f6da-452b-ac2a-efb32270ca28"
+					(reference "R159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 204.47 309.88 0)
 		(unit 1)
@@ -46296,6 +46531,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 951.23 1108.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8d8d8c-dc66-4e17-aba6-10608341bd8f")
+		(property "Reference" "#PWR0838"
+			(at 957.58 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 955.04 1108.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 951.23 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 951.23 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 951.23 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1403cacc-90a6-434a-bf0d-18c8fcefee56")
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7/67e8dda6-f6da-452b-ac2a-efb32270ca28"
+					(reference "#PWR0838")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 146.05 320.04 0)
 		(unit 1)
@@ -46940,7 +47254,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 250.19 292.1 270)
+		(at 250.19 292.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46950,7 +47264,7 @@
 		(dnp no)
 		(uuid "8d3a9874-b4f6-4e75-b21f-1a19d686fe01")
 		(property "Reference" "#PWR0477"
-			(at 246.38 292.1 0)
+			(at 254 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46961,7 +47275,7 @@
 			)
 		)
 		(property "Value" "+1V8_VCCADC"
-			(at 252.73 292.1 90)
+			(at 247.65 292.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

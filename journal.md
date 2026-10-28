@@ -12,8 +12,7 @@ Please read this Journal for clear day to day insights + not so funny jokes + AI
 
 ---
 
-## Session 1 : 
-
+## Session 1 :
 [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup)
 
 **Time : 6 hr 15 min**
@@ -195,6 +194,47 @@ Loose USB + Power Cuts.
 Feat :
 
 50 hours completed !!!
+
+**AI USAGE** : None.
+
+---
+
+## Session 10
+
+[Lapse](https://lapse.hackclub.com/timelapse/eKkvBAt7k13z)
+
+**Time : 1 hrs 22 min**
+
+Today I completed a part of Peripherals. 
+
+Next Steps : 
+- [x] DDR4 Memory
+- [ ] Complete Peripherals
+
+Challenges :
+
+Loose USB + Power Cuts.
+
+
+**AI USAGE** : None.
+
+---
+
+## Session 11
+
+[Lapse](https://lapse.hackclub.com/timelapse/DB7lABWo2sH_)
+
+**Time : 2 hrs 54 min**
+
+Completed peripherals, and added high speed peripherals.
+
+Next Steps : 
+- [x] Peripherals
+- [ ] High Speed Peripherals
+
+Challenges :
+
+Kicad Crash so PC got struck.
 
 **AI USAGE** : None.
 

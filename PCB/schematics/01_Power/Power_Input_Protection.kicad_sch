@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a9ca41f8-d139-430e-adfc-0549983606ac")
-	(paper "User" 841 800)
+	(paper "A2")
 	(lib_symbols
 		(symbol "Devboard_Symbols:IPB180P04P4L-02"
 			(exclude_from_sim no)
