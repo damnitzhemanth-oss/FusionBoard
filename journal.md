@@ -239,3 +239,23 @@ Kicad Crash so PC got struck.
 **AI USAGE** : None.
 
 ---
+
+## Session 12
+
+[Lapse](https://lapse.hackclub.com/timelapse/QqmI5UtEsSVz)
+
+**Time : 2 hrs 50 min**
+
+Started High Speed Peripherals and completed USB 3. Made some changes on Peripherals and added a new IC to increase USB ports.
+
+Next Steps : 
+- [x] Peripherals
+- [ ] High Speed Peripherals
+
+Feat :
+
+60 hours.
+
+**AI USAGE** : None.
+
+---

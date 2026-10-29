@@ -703,7 +703,7 @@
         "uuid": "f4f7837f-dd80-4f77-b150-4534de1c10d6"
       }
     ],
-    "used_designators": "#FLG1-43,R1-202,C1-52,C54-448,USB1-4,DC1,U1-47,Q1-2,D1-9,D24,RT1,C_shield1-2,R_shield1,#PWR1-972,L1-11,TH1,Cr1,TP1-6,FB1-7,Y1-4,J1-22,SW1,#SYM1,MK1,U_RAM5-8,Card1-2,CN1",
+    "used_designators": "#FLG1-43,R1-246,C1-52,C54-730,USB1-7,DC1,U1-54,Q1-2,D1-9,D24,RT1,C_shield1-2,R_shield1,#PWR1-1409,L1-12,TH1,Cr1,TP1-6,FB1-8,Y1-8,J1-22,SW1,#SYM1,MK1,U_RAM5-9,Card1-2,CN1-2",
     "variants": []
   },
   "sheets": [
@@ -742,6 +742,26 @@
     [
       "19190311-b578-49b2-ac33-4fdcc5c11b9b",
       "High Speed Peripherals"
+    ],
+    [
+      "54437adb-84e2-431a-8017-9277896bf257",
+      "Zynq Section1"
+    ],
+    [
+      "67e8dda6-f6da-452b-ac2a-efb32270ca28",
+      "Zynq CORE"
+    ],
+    [
+      "3c4a5d01-ee05-4aff-9ef4-dbc6214ba286",
+      "Peripherals"
+    ],
+    [
+      "19190311-b578-49b2-ac33-4fdcc5c11b9b",
+      "High Speed Peripherals"
+    ],
+    [
+      "5b3eaad5-14f6-48dd-8c1b-7de5efeee82d",
+      "DDR4 Memory"
     ]
   ],
   "text_variables": {},

@@ -51,6 +51,51 @@
 		)
 	)
 	(sheet
+		(at 419.735 14.605)
+		(size 82.55 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54437adb-84e2-431a-8017-9277896bf257")
+		(property "Sheetname" "Zynq Section1"
+			(at 453.39 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/04_Zynq/04_Zynq.kicad_sch"
+			(at 419.735 93.9296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.745 15.24)
 		(size 88.9 78.105)
 		(exclude_from_sim no)

@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "564ea60c-7ec1-4e80-8c24-591398d8d3a9")
-	(paper "User" 841 800)
+	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 200.66 33.02)
+		(at 203.2 74.93)
 		(size 50.8 48.895)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "19190311-b578-49b2-ac33-4fdcc5c11b9b")
 		(property "Sheetname" "High Speed Peripherals"
-			(at 200.66 32.3084 0)
+			(at 203.2 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "04d_Zynq_PS_HighSpeed.kicad_sch"
-			(at 200.66 82.4996 0)
+			(at 203.2 124.4096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48,11 +48,14 @@
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "9")
 				)
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
+					(page "13")
+				)
 			)
 		)
 	)
 	(sheet
-		(at 144.78 33.02)
+		(at 147.32 75.565)
 		(size 50.8 48.895)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +71,7 @@
 		)
 		(uuid "3c4a5d01-ee05-4aff-9ef4-dbc6214ba286")
 		(property "Sheetname" "Peripherals"
-			(at 144.78 32.3084 0)
+			(at 147.32 74.8534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +82,7 @@
 			)
 		)
 		(property "Sheetfile" "04c_Zynq_PS_Perhipherals.kicad_sch"
-			(at 144.78 82.4996 0)
+			(at 147.32 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -94,11 +97,14 @@
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "8")
 				)
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
+					(page "12")
+				)
 			)
 		)
 	)
 	(sheet
-		(at 88.9 33.02)
+		(at 91.44 74.93)
 		(size 50.8 48.895)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +120,7 @@
 		)
 		(uuid "5b3eaad5-14f6-48dd-8c1b-7de5efeee82d")
 		(property "Sheetname" "DDR4 Memory"
-			(at 88.9 32.3084 0)
+			(at 91.44 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +131,7 @@
 			)
 		)
 		(property "Sheetfile" "04b_Zynq_DDR4.kicad_sch"
-			(at 88.9 82.4996 0)
+			(at 91.44 124.4096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -140,11 +146,14 @@
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "7")
 				)
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
+					(page "14")
+				)
 			)
 		)
 	)
 	(sheet
-		(at 33.655 33.02)
+		(at 36.195 74.93)
 		(size 50.8 48.895)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +169,7 @@
 		)
 		(uuid "67e8dda6-f6da-452b-ac2a-efb32270ca28")
 		(property "Sheetname" "Zynq CORE"
-			(at 33.655 32.3084 0)
+			(at 36.195 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +180,7 @@
 			)
 		)
 		(property "Sheetfile" "04a_Zynq_Core.kicad_sch"
-			(at 33.655 82.4996 0)
+			(at 36.195 124.4096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -185,6 +194,9 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "6")
+				)
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
+					(page "11")
 				)
 			)
 		)
