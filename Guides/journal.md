@@ -27,7 +27,6 @@ Today I completed Section 1 which is related to Power. It simply receives power 
 
 **AI USAGE** : 5-15 minutes, when we search in google we get AI insights so I just read them, and used Deepseek for connections in only two instants where I didn't understand connections of MUX so I used Deepseek
 
-![Schematic](PCB\Devboard\images\Schematic\01_Power\S01_Full.png)
 
 ---
 
@@ -41,7 +40,7 @@ Today I completed Section 1 and worked on Section 2. Section 2 is about battery 
 
 **AI USAGE** : 2 minutes, once I used to check pin names of a shunt resistor and ideal connection (Search insights). And once to verify sanity.
 
-![Schematic](PCB\Devboard\images\Schematic\02_Battery\S2.png)
+
 
 ---
 
@@ -54,7 +53,6 @@ Today I completed Section 1 and worked on Section 2. Section 2 is about battery 
 Today I completed Section 3 which is responsible to step-down main power line into different voltages like +5V, +3.3V, +0.8V, +1.5V.
 And this time I actually read datasheets !!
 
-![Schematic](PCB\Devboard\images\Schematic\03_Power_Tree\S3_F.png)
 
 And I created new repo !!
 
