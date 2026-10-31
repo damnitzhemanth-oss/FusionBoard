@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "564ea60c-7ec1-4e80-8c24-591398d8d3a9")
 	(paper "A4")
+	(title_block
+		(date "2026-10-31")
+	)
 	(lib_symbols)
 	(sheet
 		(at 203.2 74.93)
@@ -47,9 +50,6 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "9")
-				)
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
-					(page "13")
 				)
 			)
 		)
@@ -97,9 +97,6 @@
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "8")
 				)
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
-					(page "12")
-				)
 			)
 		)
 	)
@@ -146,9 +143,6 @@
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "7")
 				)
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
-					(page "14")
-				)
 			)
 		)
 	)
@@ -194,9 +188,6 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7"
 					(page "6")
-				)
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/54437adb-84e2-431a-8017-9277896bf257"
-					(page "11")
 				)
 			)
 		)

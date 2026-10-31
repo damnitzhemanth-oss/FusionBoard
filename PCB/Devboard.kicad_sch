@@ -3,10 +3,204 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f4f7837f-dd80-4f77-b150-4534de1c10d6")
-	(paper "User" 841 800)
+	(paper "A2")
+	(title_block
+		(date "2026-10-31")
+	)
 	(lib_symbols)
+	(rectangle
+		(start 12.065 12.065)
+		(end 579.755 40.005)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aa43319c-e89f-410b-90ce-7c27f7b5dc13")
+	)
+	(text "Fusion Board : Master Page"
+		(exclude_from_sim no)
+		(at 293.624 31.75 0)
+		(effects
+			(font
+				(face "Montserrat ExtraBold")
+				(size 15 15)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "86f9851a-89af-46d1-a2da-130fbe77412b")
+	)
+	(text_box "Author : Hemanth\nYSWS : Pixl"
+		(exclude_from_sim no)
+		(at 12.065 12.065 0)
+		(size 28.575 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "86056c35-1c03-4136-a344-9d7e9a89b334")
+	)
 	(sheet
-		(at 222.885 14.605)
+		(at 197.485 269.24)
+		(size 85.09 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "250c709e-4ef1-4fdc-8f9c-e7b0f3c90207")
+		(property "Sheetname" "ePaper Ink Display"
+			(at 215.265 312.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\11_ePaper\\11_ePaper.kicad_sch"
+			(at 197.485 348.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 173.99)
+		(size 88.9 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28ad882b-0a84-4934-be7f-2a9f1bc58454")
+		(property "Sheetname" "Analog | RF"
+			(at 173.228 215.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/07_Analog_RF/07_Analog_RF.kicad_sch"
+			(at 144.78 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 298.45 269.24)
+		(size 85.09 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "34103631-af90-4212-8a52-ad3ecda0012b")
+		(property "Sheetname" "Expansion"
+			(at 327.66 312.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\12_Expansion\\12_Expansion.kicad_sch"
+			(at 298.45 348.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 78.74)
 		(size 85.09 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,18 +215,21 @@
 		)
 		(uuid "45cac4e6-0a29-4df8-a47a-acc787d94f7b")
 		(property "Sheetname" "Power Tree"
-			(at 260.604 58.674 0)
+			(at 277.114 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "schematics/03_Power_Tree/03_Power_Tree.kicad_sch"
-			(at 222.885 93.9296 0)
+			(at 248.92 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51,7 +248,7 @@
 		)
 	)
 	(sheet
-		(at 419.735 14.605)
+		(at 445.77 78.74)
 		(size 82.55 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65,19 +262,22 @@
 			(color 0 0 0 0)
 		)
 		(uuid "54437adb-84e2-431a-8017-9277896bf257")
-		(property "Sheetname" "Zynq Section1"
-			(at 453.39 57.658 0)
+		(property "Sheetname" "Clocking"
+			(at 477.012 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics/04_Zynq/04_Zynq.kicad_sch"
-			(at 419.735 93.9296 0)
+		(property "Sheetfile" "schematics/05_Clocking/05_Clocking.kicad_sch"
+			(at 445.77 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -96,7 +296,7 @@
 		)
 	)
 	(sheet
-		(at 118.745 15.24)
+		(at 144.78 79.375)
 		(size 88.9 78.105)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -111,18 +311,21 @@
 		)
 		(uuid "58c0d1bc-f1af-47a1-8444-9b0b37a445d5")
 		(property "Sheetname" "Battery.Charger,Fuel Gauge"
-			(at 149.86 59.182 0)
+			(at 158.75 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "schematics/02_Battery/Battery_Charger_FuelGauge.kicad_sch"
-			(at 132.334 93.98 0)
+			(at 158.369 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -141,7 +344,7 @@
 		)
 	)
 	(sheet
-		(at 15.24 15.24)
+		(at 41.275 79.375)
 		(size 86.36 78.105)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -156,18 +359,21 @@
 		)
 		(uuid "880a94ed-a974-4da2-b4ca-cb72436ddb06")
 		(property "Sheetname" "Power,Input,Protection"
-			(at 43.942 59.182 0)
+			(at 56.896 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "schematics/01_Power/Power_Input_Protection.kicad_sch"
-			(at 29.464 94.234 0)
+			(at 55.499 158.369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,7 +392,103 @@
 		)
 	)
 	(sheet
-		(at 323.215 14.605)
+		(at 41.91 173.355)
+		(size 85.725 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "98e1fa6e-d104-495f-a0fd-1a7ab14e1324")
+		(property "Sheetname" "Video"
+			(at 78.994 218.821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/06_Video/06_Video.kicad_sch"
+			(at 41.91 252.6796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 173.99)
+		(size 85.09 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a834084c-44a5-4ce2-b2a7-fe2bf589f1d2")
+		(property "Sheetname" "Sensors and GNSS"
+			(at 270.002 217.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch"
+			(at 248.92 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 349.25 78.74)
 		(size 82.55 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -201,18 +503,21 @@
 		)
 		(uuid "b48c92d5-ffe6-40f3-9dff-a09c41a730f7")
 		(property "Sheetname" "Zynq Section"
-			(at 356.87 57.658 0)
+			(at 376.936 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "schematics/04_Zynq/04_Zynq.kicad_sch"
-			(at 323.215 93.9296 0)
+			(at 349.25 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -226,6 +531,102 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 349.25 173.99)
+		(size 85.09 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8d0a37f-0b7f-4035-bfcc-6819e8071a5b")
+		(property "Sheetname" "RTC & Security"
+			(at 373.888 216.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch"
+			(at 349.25 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 445.77 173.99)
+		(size 82.55 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d99e87c9-89e1-42e1-96c2-6f905824a5a1")
+		(property "Sheetname" "Harvester, BMC, Telemetry"
+			(at 458.47 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch"
+			(at 445.77 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Devboard"
+				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6"
+					(page "15")
 				)
 			)
 		)

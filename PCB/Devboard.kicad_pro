@@ -703,7 +703,7 @@
         "uuid": "f4f7837f-dd80-4f77-b150-4534de1c10d6"
       }
     ],
-    "used_designators": "#FLG1-43,R1-246,C1-52,C54-730,USB1-7,DC1,U1-54,Q1-2,D1-9,D24,RT1,C_shield1-2,R_shield1,#PWR1-1409,L1-12,TH1,Cr1,TP1-6,FB1-8,Y1-8,J1-22,SW1,#SYM1,MK1,U_RAM5-9,Card1-2,CN1-2",
+    "used_designators": "#FLG1-72,R1-348,C1-52,C54-862,USB1-8,DC1-2,U1-81,Q1-4,D1-18,D24,RT1-2,C_shield1-2,R_shield1-2,T1,#PWR1-1842,L1-22,TH1,Cr1,TP1-6,FB1-18,Y1-9,J1-22,SW1-2,#SYM1,MK1,U_RAM5-9,NT1,Card1-2,CN1-2,BT1-2",
     "variants": []
   },
   "sheets": [
@@ -745,23 +745,35 @@
     ],
     [
       "54437adb-84e2-431a-8017-9277896bf257",
-      "Zynq Section1"
+      "Clocking"
     ],
     [
-      "67e8dda6-f6da-452b-ac2a-efb32270ca28",
-      "Zynq CORE"
+      "98e1fa6e-d104-495f-a0fd-1a7ab14e1324",
+      "Video"
     ],
     [
-      "3c4a5d01-ee05-4aff-9ef4-dbc6214ba286",
-      "Peripherals"
+      "28ad882b-0a84-4934-be7f-2a9f1bc58454",
+      "Analog | RF"
     ],
     [
-      "19190311-b578-49b2-ac33-4fdcc5c11b9b",
-      "High Speed Peripherals"
+      "a834084c-44a5-4ce2-b2a7-fe2bf589f1d2",
+      "Sensors and GNSS"
     ],
     [
-      "5b3eaad5-14f6-48dd-8c1b-7de5efeee82d",
-      "DDR4 Memory"
+      "b8d0a37f-0b7f-4035-bfcc-6819e8071a5b",
+      "RTC & Security"
+    ],
+    [
+      "d99e87c9-89e1-42e1-96c2-6f905824a5a1",
+      "Harvester, BMC, Telemetry"
+    ],
+    [
+      "250c709e-4ef1-4fdc-8f9c-e7b0f3c90207",
+      "ePaper Ink Display"
+    ],
+    [
+      "34103631-af90-4212-8a52-ad3ecda0012b",
+      "Expansion"
     ]
   ],
   "text_variables": {},
