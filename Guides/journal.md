@@ -259,3 +259,52 @@ Feat :
 **AI USAGE** : None.
 
 ---
+
+## Session 13
+
+[Lapse](https://lapse.hackclub.com/timelapse/oGJXCNsa4PkO)
+
+**Time: 2 hr 46 min**
+
+Started Working on high speed perhipherals. These are just extra peripherals but need careful routing and all. Today I was able to add SuperSpeed USB, and I2C Mux.
+
+Next Steps : 
+- [ ]  Complete High Speed Peripherals.
+- [ ]  Start Clocking.
+
+**AI Usage** : None.
+
+## Session 14
+
+[Lapse](https://lapse.hackclub.com/timelapse/f_RFYJqpCda7)
+
+**Time: 7 hrs 12 mins**
+
+Today I completed High Speed Peripherals section, completed clocking,and started on Analogy RF. 
+
+Next Steps : 
+- [x] High Speed Peripherals.
+- [x] Clocking.
+- [ ] Complete Analog RF.
+
+**AI Usage** : None.
+
+## Session 15
+
+[Lapse](https://lapse.hackclub.com/timelapse/6rcv7T434uuH)
+
+Today lowk was a big day. I completed entire schematic. Analog RF, Energy harvesting etc. Fixed DRC errors. added svg images. and began on placement in PCB.
+
+Next Steps :
+
+- [x] Schematic
+- [ ] PCB Placement
+- [ ] Routing
+- [ ] Repo
+
+Feats : 
+
+80 hours yay !!
+
+**AI Usage: None**
+
