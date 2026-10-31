@@ -119,7 +119,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "28ad882b-0a84-4934-be7f-2a9f1bc58454")
-		(property "Sheetname" "Analog | RF"
+		(property "Sheetname" "Analog_RF"
 			(at 173.228 215.138 0)
 			(show_name no)
 			(do_not_autoplace no)
