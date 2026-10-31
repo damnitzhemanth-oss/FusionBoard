@@ -2473,10 +2473,11 @@
 		(end 407.67 53.34)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "25f4ddbf-ad3c-4524-bdae-2eb4f64cc60a")
 	)

@@ -17354,10 +17354,11 @@
 		(end 1287.78 121.285)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "daf62a55-d241-43b6-be61-463e1df30473")
 	)
@@ -25143,7 +25144,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 0 0 0 1)
 		)
 		(uuid "9efa46ba-d7a0-4d7d-9cea-4b50341d63df")
 	)

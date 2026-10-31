@@ -5640,10 +5640,11 @@
 		(end 582.295 83.82)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "2b0d249a-b707-419f-b02f-be5c6dc25bfe")
 	)

@@ -18,8 +18,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 12.7 0)
+			(property "Reference" "J8"
+				(at 0.635 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -29,7 +29,7 @@
 				)
 			)
 			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
+				(at 0.635 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -38,8 +38,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+				(at -19.812 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -61,7 +61,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x09, script generated"
-				(at 0 0 0)
+				(at -20.828 -13.208 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -104,6 +104,18 @@
 				)
 			)
 			(symbol "Conn_01x09_Pin_1_1"
+				(rectangle
+					(start -50.8 10.16)
+					(end 0 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
 				(rectangle
 					(start 0.8636 10.287)
 					(end 0 10.033)
@@ -309,6 +321,23 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(text "EPAPER"
+					(at -46.736 -8.89 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Gaybin doggy boi"
+					(at -26.416 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 0 0 1)
+						)
 					)
 				)
 				(pin passive line
@@ -736,10 +765,11 @@
 		(end 198.12 36.83)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "43b8e07d-d4d2-4948-b29d-385ad99247a6")
 	)
@@ -758,7 +788,7 @@
 	)
 	(global_label "EPD_DC"
 		(shape input)
-		(at 91.44 77.47 0)
+		(at 124.46 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -768,7 +798,7 @@
 		)
 		(uuid "1fa18988-2325-4f19-82ea-757600697623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6218 77.47 0)
+			(at 134.6418 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -782,7 +812,7 @@
 	)
 	(global_label "EPD_MISO"
 		(shape input)
-		(at 91.44 72.39 0)
+		(at 124.46 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -792,7 +822,7 @@
 		)
 		(uuid "1fa6d43e-248f-4fff-83e2-fc894d8456d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.678 72.39 0)
+			(at 136.698 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,7 +836,7 @@
 	)
 	(global_label "EPD_CS"
 		(shape input)
-		(at 91.44 67.31 0)
+		(at 124.46 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -816,7 +846,7 @@
 		)
 		(uuid "9b895067-b74f-461e-bc0d-4f75b65fa4a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5613 67.31 0)
+			(at 134.5813 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -830,7 +860,7 @@
 	)
 	(global_label "EPD_SCK"
 		(shape input)
-		(at 91.44 69.85 0)
+		(at 124.46 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -840,7 +870,7 @@
 		)
 		(uuid "9d52a399-e6f4-42a0-8daf-b8963eedee88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8313 69.85 0)
+			(at 135.8513 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -854,7 +884,7 @@
 	)
 	(global_label "EPD_MOSI"
 		(shape input)
-		(at 91.44 74.93 0)
+		(at 124.46 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -864,7 +894,7 @@
 		)
 		(uuid "a8e2e67b-14c5-4901-ac20-f0adb3de8a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.678 74.93 0)
+			(at 136.698 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -878,7 +908,7 @@
 	)
 	(global_label "EPD_BUSY"
 		(shape input)
-		(at 91.44 82.55 0)
+		(at 124.46 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -888,7 +918,7 @@
 		)
 		(uuid "f466f86d-750e-4ea2-8d92-888337c2125e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9804 82.55 0)
+			(at 137.0004 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -902,7 +932,7 @@
 	)
 	(global_label "EPD_RST"
 		(shape input)
-		(at 91.44 80.01 0)
+		(at 124.46 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -912,7 +942,7 @@
 		)
 		(uuid "f730cdfa-b82a-4c4e-af04-a9c3e700c84f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5289 80.01 0)
+			(at 135.5489 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -926,7 +956,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 86.36 72.39 0)
+		(at 119.38 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -937,7 +967,7 @@
 		(fields_autoplaced yes)
 		(uuid "835f209a-ab64-431b-b519-0bddedb35175")
 		(property "Reference" "J8"
-			(at 86.995 57.15 0)
+			(at 120.015 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -947,7 +977,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 86.995 59.69 0)
+			(at 120.015 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -957,7 +987,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 86.36 72.39 0)
+			(at 99.568 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -968,7 +998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 72.39 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -979,7 +1009,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 86.36 72.39 0)
+			(at 98.552 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,7 +1057,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 62.23 90)
+		(at 124.46 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1038,7 +1068,7 @@
 		(fields_autoplaced yes)
 		(uuid "e751fada-8485-4aa0-b360-bd334c3d7b2b")
 		(property "Reference" "#PWR01202"
-			(at 97.79 62.23 0)
+			(at 130.81 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1049,7 +1079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 62.2299 90)
+			(at 128.27 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1060,7 +1090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 62.23 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +1101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 62.23 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,7 +1112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 62.23 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1106,7 +1136,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 64.77 270)
+		(at 124.46 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1117,7 +1147,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8f23620-d130-4e36-993e-97e10f991d49")
 		(property "Reference" "#PWR01203"
-			(at 87.63 64.77 0)
+			(at 120.65 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,7 +1158,7 @@
 			)
 		)
 		(property "Value" "+3V3_BMC"
-			(at 95.25 64.7699 90)
+			(at 128.27 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1139,7 +1169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 64.77 0)
+			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +1180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 64.77 0)
+			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1161,7 +1191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 64.77 0)
+			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -8,6 +8,32 @@
 		(date "2026-10-31")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 12.065 12.065)
+		(end 285.115 38.735)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(uuid "e30caba3-a1f4-4029-bb76-e99b15dd29d6")
+	)
+	(text "Zynq: Master Page"
+		(exclude_from_sim no)
+		(at 141.986 30.48 0)
+		(effects
+			(font
+				(face "Montserrat ExtraBold")
+				(size 15 15)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "322ef484-fb99-44cd-a3b9-6ec7e4b6ca34")
+	)
 	(sheet
 		(at 203.2 74.93)
 		(size 50.8 48.895)

@@ -13,10 +13,11 @@
 		(end 579.755 40.005)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "aa43319c-e89f-410b-90ce-7c27f7b5dc13")
 	)
@@ -33,7 +34,7 @@
 		)
 		(uuid "86f9851a-89af-46d1-a2da-130fbe77412b")
 	)
-	(text_box "Author : Hemanth\nYSWS : Pixl"
+	(text_box "Author : Hemanth\nYSWS : Pixl\n"
 		(exclude_from_sim no)
 		(at 12.065 12.065 0)
 		(size 28.575 27.94)
@@ -84,7 +85,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\11_ePaper\\11_ePaper.kicad_sch"
+		(property "Sheetfile" "schematics/11_ePaper/11_ePaper.kicad_sch"
 			(at 197.485 348.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -180,7 +181,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\12_Expansion\\12_Expansion.kicad_sch"
+		(property "Sheetfile" "schematics/12_Expansion/12_Expansion.kicad_sch"
 			(at 298.45 348.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -468,7 +469,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch"
+		(property "Sheetfile" "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch"
 			(at 248.92 253.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -564,7 +565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch"
+		(property "Sheetfile" "schematics/09_RTC_Security/09_RTC_Security.kicad_sch"
 			(at 349.25 253.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -612,7 +613,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch"
+		(property "Sheetfile" "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch"
 			(at 445.77 253.3146 0)
 			(show_name no)
 			(do_not_autoplace no)

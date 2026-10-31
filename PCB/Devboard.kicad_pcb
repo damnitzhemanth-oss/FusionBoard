@@ -3343,6 +3343,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3534,7 +3535,7 @@
 			(uuid "30939adb-dddd-4afa-b56c-91f2f7c6e07d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4624,6 +4625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4823,7 +4825,7 @@
 			(uuid "6f158a6a-fc6d-4fdb-92f0-2abdce46c7ba")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14246,7 +14248,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/15ca5930-2bb5-4a24-89e4-a2b68314da91")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16373,6 +16375,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16883,7 +16886,7 @@
 			(uuid "6a87096e-ff43-4ac9-8181-4c92b1fae769")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_472720001.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/CONN-SMD_472720001.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18124,7 +18127,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/1ceff9af-4404-4726-a2fb-6b845c2a76e1")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23980,7 +23983,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24225,7 +24227,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/783243e2-39f2-418d-9bef-0897068ba397")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25381,7 +25383,7 @@
 		(property ki_fp_filters "DFN*1EP*3x2mm*P0.5mm*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/dd34d37b-2e1e-4ffb-8fde-934a919c3c6d")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26626,7 +26628,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/aee8d4b5-08ff-41fe-a336-621dcd548122")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26929,7 +26931,6 @@
 				(pins "1")
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30288,7 +30289,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/5f0f44d0-8e3f-4ad5-8e02-141d231479a2")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31770,7 +31771,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/00049f6a-17ea-487c-a4b5-bab1144e8de4")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32500,7 +32501,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/d8716a59-f016-456d-8b39-864c6308aab5")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32646,7 +32647,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/f35c3be5-8440-472b-8157-e061e6c17b86")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36647,7 +36648,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/9db579b5-7dd1-44be-8ff0-bbc43f037984")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36823,6 +36824,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37300,7 +37302,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/f629f104-03db-45bb-a598-bf3c061a4686")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37738,7 +37740,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34103631-af90-4212-8a52-ad3ecda0012b/6de7fb2a-c767-45a5-8251-fe55c0afc39a")
 		(sheetname "/Expansion/")
-		(sheetfile "schematics\\12_Expansion\\12_Expansion.kicad_sch")
+		(sheetfile "schematics/12_Expansion/12_Expansion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38204,6 +38206,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -40985,7 +40988,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/09edc238-c142-4b17-a0d9-39db2332d31d")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41131,7 +41134,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/14afd083-8464-426f-8dc9-adfee0865e3f")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41374,6 +41377,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -42014,7 +42018,7 @@
 			(uuid "bc2dc421-df86-4e60-9675-f76eebbe7919")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-48_L7.0-W7.0-P0.50-TL-EP4.1.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-48_L7.0-W7.0-P0.50-TL-EP4.1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42079,7 +42083,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/4f9e1994-b0e3-4e25-9377-6c51c82fc397")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42376,6 +42380,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -42708,7 +42713,7 @@
 			(uuid "5dc263f2-deba-4d01-8f84-a2cb3f625439")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-16_L10.3-W7.5-H2.1-LS10.0-P1.27.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SOP-16_L10.3-W7.5-H2.1-LS10.0-P1.27.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42776,6 +42781,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43135,7 +43141,7 @@
 			(uuid "58b3702a-93d9-4607-bb05-f79009d7e214")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-10_L2.0-W2.0-P0.45-TL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-10_L2.0-W2.0-P0.45-TL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43200,7 +43206,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/10c1f4d4-f54d-49d0-ac8f-04180f687b43")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43784,7 +43790,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/f1c6ee4d-aac1-422c-ac03-eb4a6c41a82a")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44663,6 +44669,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -45001,7 +45008,7 @@
 			(uuid "065e4b9a-8516-4c51-be51-ad9e5f2c9b9b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TF-SMD_TF-01A.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/TF-SMD_TF-01A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46462,6 +46469,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -48309,7 +48317,7 @@
 			(uuid "5417df68-cd07-4479-97be-12a481e32674")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PCIE-SMD_1-2199230-6.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/PCIE-SMD_1-2199230-6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48374,7 +48382,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34103631-af90-4212-8a52-ad3ecda0012b/88101259-f3d9-49bc-8036-b4e9eb29a41a")
 		(sheetname "/Expansion/")
-		(sheetfile "schematics\\12_Expansion\\12_Expansion.kicad_sch")
+		(sheetfile "schematics/12_Expansion/12_Expansion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51319,7 +51327,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/07a85255-cf04-436c-a4fd-1572ff2acf85")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52782,6 +52790,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -53178,7 +53187,7 @@
 			(uuid "fc6df06f-7810-4c6a-b77e-12901c1dec4d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WQFN-20_L3.0-W3.0-H0.8-P0.40-TL-EP1.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/WQFN-20_L3.0-W3.0-H0.8-P0.40-TL-EP1.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53976,6 +53985,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -54007,7 +54017,7 @@
 		)
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/84965efa-d42f-41da-823a-137864dcb32e")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -54327,7 +54337,7 @@
 			(uuid "91114f05-2361-487a-bf72-17f65f4f2cb9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/LGA-16_L3.0-W3.0-H0.9-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/LGA-16_L3.0-W3.0-H0.9-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54830,7 +54840,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/8cc276f4-c31e-4c00-873f-dc9a27d6ee02")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55784,7 +55794,7 @@
 			(uuid "b7c12816-8311-4390-8179-90392795b68e")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_CSP.3dshapes/LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_CSP.3dshapes/LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58794,6 +58804,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -59154,7 +59165,7 @@
 			(uuid "2dd941de-49c8-4392-b433-120079aba821")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-16_L3.0-W3.0-P0.50-TL-EP1.5.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-16_L3.0-W3.0-P0.50-TL-EP1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60378,6 +60389,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -60599,7 +60611,7 @@
 			(uuid "d86c4ec0-7bf3-4a83-a9f1-16099dc2dc7e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SMD-4_L2.0-W1.2-H1.3.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SMD-4_L2.0-W1.2-H1.3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64258,6 +64270,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -65322,6 +65335,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -68589,7 +68603,7 @@
 			(uuid "25d8b274-94cc-47e3-9bd6-4cf6159b551f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FBGA-153_L13.0-W11.5-H1.1-P0.50_KLMAG1JETD-B041.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/FBGA-153_L13.0-W11.5-H1.1-P0.50_KLMAG1JETD-B041.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -69698,7 +69712,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/76c4cf24-d626-4dae-8ba0-d4cf23f3c9b7")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73092,7 +73106,7 @@
 		)
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/5bf27057-21df-4719-850b-dfe6a37297c7")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74335,7 +74349,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/5c4a81ca-cff7-4b4f-9d1e-3696994c247b")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74484,6 +74498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -74843,7 +74858,7 @@
 			(uuid "219d72dc-9889-4640-9f26-d090515facd1")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-10_L2.0-W2.0-P0.45-TL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-10_L2.0-W2.0-P0.45-TL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -76637,6 +76652,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -77082,7 +77098,7 @@
 			(uuid "764883d1-0348-4ea0-99fe-c8929c84ddd8")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-24P-SMD.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C-24P-SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -78194,6 +78210,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -78741,7 +78758,7 @@
 			(uuid "d628554f-652e-405c-ae76-a1009353c3d3")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TQFP-32_L5.0-W5.0-H1.2-LS7.0-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/TQFP-32_L5.0-W5.0-H1.2-LS7.0-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -79098,7 +79115,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34103631-af90-4212-8a52-ad3ecda0012b/56d90e29-c989-4773-8b3b-f97f395dce6a")
 		(sheetname "/Expansion/")
-		(sheetfile "schematics\\12_Expansion\\12_Expansion.kicad_sch")
+		(sheetfile "schematics/12_Expansion/12_Expansion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80294,6 +80311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -80325,7 +80343,7 @@
 		)
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/320b0d50-ec31-4bfa-9f81-b7d6fa57b833")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80603,7 +80621,7 @@
 			(uuid "7ec0fdf3-a6f7-4f7e-99ab-0062e41553e3")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SMD-18_L10.1-W9.7-P1.10-TL_SKG09F.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SMD-18_L10.1-W9.7-P1.10-TL_SKG09F.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -82312,7 +82330,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/421d5b6b-7516-4b4a-b808-5145eebf3051")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83626,7 +83644,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/ae1baeca-5d7a-42ca-ac69-c130e592f79e")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83921,6 +83939,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -84389,7 +84408,7 @@
 			(uuid "c1bc4ff1-82e7-4a67-b91f-83baebbd3947")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-CLIP-28_L4.5-W3.5-H0.9-P0.40-BL-EP.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-CLIP-28_L4.5-W3.5-H0.9-P0.40-BL-EP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -84457,6 +84476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -84899,7 +84919,7 @@
 			(uuid "0525e977-c2ed-4a22-9152-3efa3ffcbb62")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WQFN-24_L4.0-W4.0-H0.8-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/WQFN-24_L4.0-W4.0-H0.8-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -85694,7 +85714,7 @@
 		(property ki_fp_filters "WSON*1EP?2x2mm?P0.65mm?EP1x1.6mm*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/b31a6a34-0d97-4779-b785-4ded6eae4032")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -88073,6 +88093,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -88868,7 +88889,7 @@
 			(uuid "cf6065c4-8483-4bb2-8309-85d17fa843f4")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-64_L9.0-W9.0-P0.50-TL-EP5.2.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-64_L9.0-W9.0-P0.50-TL-EP5.2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -89744,6 +89765,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -92379,7 +92401,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/5d915875-0b6f-4fc8-8978-a7a81669a507")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -92530,6 +92552,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -92747,7 +92770,7 @@
 			(uuid "a556d13d-8ab8-4c90-a851-fd5eaf0074cb")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -95583,6 +95606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -96160,7 +96184,7 @@
 			(uuid "a5904d7c-b85d-4482-a9fb-3698c31bce52")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-40_L6.0-W6.0-H0.8-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-40_L6.0-W6.0-H0.8-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -97685,7 +97709,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/e5bf5918-5da6-43bb-89a0-d3f1218bde70")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -98235,7 +98259,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/f72ffe93-9878-450a-b162-102b778636ea")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -99114,6 +99138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -99594,7 +99619,7 @@
 			(uuid "c2b7002a-685b-4748-b20d-02d4c3a67c9a")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L4.5-W3.5-H1.0-P0.50.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L4.5-W3.5-H1.0-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -101019,7 +101044,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/d4b4d9de-ba11-4e90-bdcb-c47efb1a9d05")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -102044,6 +102069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -102274,7 +102300,7 @@
 			(uuid "2afff9ae-f33e-42e8-9cb9-e31a12ce8ec0")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L2.0-W1.5-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -102923,7 +102949,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/52d2c4ed-5476-4065-a0db-490a16374795")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -105958,6 +105984,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -105989,7 +106016,7 @@
 		)
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/b2f5fc1c-08d6-4a07-aced-e4f3ca16e0a4")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -106234,7 +106261,7 @@
 			(uuid "b2ffcb93-e351-42d8-93ab-59ee6140293c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/LGA-10_L2.0-W2.0-P0.50-TL_BMP581.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/LGA-10_L2.0-W2.0-P0.50-TL_BMP581.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -107029,7 +107056,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/2c03fd3e-c0e5-4daa-967d-6592fb39c5bf")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -109540,6 +109567,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -112612,7 +112640,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/2f37a6da-e39e-4c9d-b176-26b256e9f61a")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -117797,7 +117825,7 @@
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/9a5a344b-8ddd-4833-ba71-9d2e7b8fa620")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -118981,6 +119009,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -119426,7 +119455,7 @@
 			(uuid "6e5faf52-ffcb-4842-b773-b542ca70482a")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-24P-SMD.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C-24P-SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -119640,6 +119669,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -120036,7 +120066,7 @@
 			(uuid "34316aaf-0be1-4c5e-9265-ec869c49f3c7")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -125554,6 +125584,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -125783,7 +125814,7 @@
 			(uuid "0e4b428e-2180-4319-9225-2081a87d9297")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/DC-IN-TH_PJ-102AH.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/DC-IN-TH_PJ-102AH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -126286,7 +126317,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/d4ceedd9-b32c-41ba-9378-a2a19b9626cb")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -127020,7 +127051,7 @@
 		)
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/25e91495-1f74-42d7-95c3-5e983d554605")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -127030,7 +127061,6 @@
 				)
 			)
 		)
-		(attr)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.5 -2.5)
@@ -127692,7 +127722,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/7770bc91-2ff6-417f-a2c7-a2d46beeda19")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -127980,6 +128010,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -128425,7 +128456,7 @@
 			(uuid "d16524d1-9308-4d66-90c9-b13cfee32c85")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-24P-SMD.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/USB-C-SMD_TYPE-C-24P-SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -129077,6 +129108,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -131326,7 +131358,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/4755f89b-aedf-4ba4-820e-0624a48365a0")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -132668,7 +132700,7 @@
 		(property ki_fp_filters "LGA14_2P5X3X0P91_TDK LGA14_2P5X3X0P91_TDK-M LGA14_2P5X3X0P91_TDK-L")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/a012a4a1-f3e1-4bb5-8a92-b7a46157d532")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -134737,7 +134769,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "SH" "7" "4" "1" "2" "3" "5" "6" "8" "9")
+				(pins "7" "4" "1" "2" "3" "5" "6" "8" "9")
 			)
 		)
 		(attr smd)
@@ -136096,7 +136128,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8d0a37f-0b7f-4035-bfcc-6819e8071a5b/075f8707-c7b7-4254-b35c-272a591006e2")
 		(sheetname "/RTC & Security/")
-		(sheetfile "schematics\\09_RTC_Security\\09_RTC_Security.kicad_sch")
+		(sheetfile "schematics/09_RTC_Security/09_RTC_Security.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -138283,7 +138315,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/62f6d6ad-d512-4528-9d3a-205c755660a2")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -138889,7 +138921,7 @@
 		(property ki_fp_filters "QFN*1EP*3.5x3.5mm*P0.5mm*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/588e7662-6aef-4cfd-876d-eb7abcca8464")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -139666,7 +139698,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/60699767-53e8-4b02-91e1-9d03649c8574")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -145585,7 +145617,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/c4fc0a82-3a53-4d7e-a431-ebc73ac93548")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -146700,13 +146732,12 @@
 			)
 		)
 	)
-	(footprint "Devboard_Footprints:RJ45-TH_HR911105A"
+	(footprint "Devboard_Footprints:QFN-32_L5.0-W5.0-P0.50-BL-EP3.4"
 		(layer "F.Cu")
 		(uuid "c7671630-e3b8-4490-ae5b-80b3d3ba7c71")
 		(at 27.97 73.855)
-		(descr "RJ45-LED")
 		(property "Reference" "U33"
-			(at 0 -10.895 0)
+			(at 0 -6.4 0)
 			(layer "F.SilkS")
 			(uuid "5a3e232d-9c75-4fe2-a3be-f2c169960e5b")
 			(effects
@@ -146717,7 +146748,7 @@
 			)
 		)
 		(property "Value" "USB3320C-EZK-TR"
-			(at 0 10.895 0)
+			(at 0 6.4 0)
 			(layer "F.Fab")
 			(uuid "4d7c212f-56a3-4872-ae83-040bdf1ddf29")
 			(effects
@@ -146765,7 +146796,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c74761cd-8194-4250-aa48-f7f751f5b89a")
+			(uuid "57341001-a47f-40f8-8505-7a55d93dc8e8")
 			(effects
 				(font
 					(size 1 1)
@@ -146778,7 +146809,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b2ee51b-8f5d-4b1d-9e5c-8d47924cc780")
+			(uuid "dd234c66-0588-4086-bff8-ce8d2403077d")
 			(effects
 				(font
 					(size 1 1)
@@ -146798,71 +146829,91 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -8.05 -8.68)
-			(end -8.05 -2.68)
+			(start -2.5 -2.1)
+			(end -2.5 -2.5)
 			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9469d42a-3bbd-4155-abe7-cfc2724c3fcc")
-		)
-		(fp_line
-			(start -8.05 -8.68)
-			(end 8.05 -8.68)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aad19192-53e0-4a46-8ee7-20aba7999602")
-		)
-		(fp_line
-			(start -8.05 0.61)
-			(end -8.05 12.92)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "98530ee3-f2c9-4a88-aa2a-fbb6a90b1fee")
-		)
-		(fp_line
-			(start -8.05 12.92)
-			(end 8.05 12.92)
-			(stroke
-				(width 0.25)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "ac41e043-7729-42d7-a86b-d8061f6827a4")
 		)
 		(fp_line
-			(start 8.05 -8.68)
-			(end 8.05 -2.68)
+			(start -2.5 2.1)
+			(end -2.5 2.5)
 			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9ce9e87-5e0d-4673-acf3-0900ed175811")
-		)
-		(fp_line
-			(start 8.05 0.61)
-			(end 8.05 12.92)
-			(stroke
-				(width 0.25)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "a5e8605d-dc90-4b76-bbbe-cd72e2194e35")
 		)
+		(fp_line
+			(start -2.1 -2.5)
+			(end -2.5 -2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9469d42a-3bbd-4155-abe7-cfc2724c3fcc")
+		)
+		(fp_line
+			(start -2.1 2.5)
+			(end -2.5 2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08d2879b-8cab-4a02-8e09-b888dfb1031a")
+		)
+		(fp_line
+			(start 2.1 -2.5)
+			(end 2.5 -2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98530ee3-f2c9-4a88-aa2a-fbb6a90b1fee")
+		)
+		(fp_line
+			(start 2.1 2.5)
+			(end 2.5 2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83ae7491-07a1-499c-a596-4314bfa03e63")
+		)
+		(fp_line
+			(start 2.5 -2.1)
+			(end 2.5 -2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aad19192-53e0-4a46-8ee7-20aba7999602")
+		)
+		(fp_line
+			(start 2.5 2.1)
+			(end 2.5 2.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9ce9e87-5e0d-4673-acf3-0900ed175811")
+		)
 		(fp_circle
-			(center -8.02 -8.4)
-			(end -7.99 -8.4)
+			(center -2.5 2.5)
+			(end -2.47 2.5)
 			(stroke
 				(width 0.06)
 				(type solid)
@@ -146872,51 +146923,30 @@
 			(uuid "6bae25f1-091a-415a-b95b-a79e5683252c")
 		)
 		(fp_circle
-			(center -5.72 2)
-			(end -5.01 2)
+			(center -1.78 3.3)
+			(end -1.65 3.3)
 			(stroke
-				(width 1.4)
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "facc9aad-e02d-4d0d-ada9-c9045f406ca5")
+		)
+		(fp_circle
+			(center -2.03 2.67)
+			(end -1.9 2.67)
+			(stroke
+				(width 0.25)
 				(type solid)
 			)
 			(fill no)
 			(layer "Cmts.User")
 			(uuid "13b33159-a23c-465c-b509-97cdd3932fe5")
 		)
-		(fp_circle
-			(center -5.03 -4.96)
-			(end -4.93 -4.96)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "facc9aad-e02d-4d0d-ada9-c9045f406ca5")
-		)
-		(fp_circle
-			(center 5.72 2)
-			(end 6.42 2)
-			(stroke
-				(width 1.4)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "9b53e300-1625-4013-ac6f-f4907fe91c01")
-		)
 		(fp_line
-			(start -8.02 -8.4)
-			(end 8.02 -8.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9aa80e2d-94a5-4949-a143-de7ba13e84dc")
-		)
-		(fp_line
-			(start -8.02 12.9)
-			(end -8.02 -8.4)
+			(start -2.5 -2.5)
+			(end 2.5 -2.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -146925,8 +146955,8 @@
 			(uuid "9e55403b-9c1d-4261-992a-910bdfa926f2")
 		)
 		(fp_line
-			(start 8.02 -8.4)
-			(end 8.02 12.9)
+			(start -2.5 2.5)
+			(end -2.5 -2.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -146935,14 +146965,24 @@
 			(uuid "e0739f0f-e999-4410-b862-27ed7e4c18e9")
 		)
 		(fp_line
-			(start 8.02 12.9)
-			(end -8.02 12.9)
+			(start 2.5 -2.5)
+			(end 2.5 2.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "5123978f-c3af-4fe0-bfa4-3b593f678a89")
+		)
+		(fp_line
+			(start 2.5 2.5)
+			(end -2.5 2.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9aa80e2d-94a5-4949-a143-de7ba13e84dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -146955,172 +146995,305 @@
 				)
 			)
 		)
-		(pad "" thru_hole circle
-			(at -5.72 2)
-			(size 3.3 3.3)
-			(drill 3.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "e228322d-c4c6-4439-a863-198967ea09b9")
-		)
-		(pad "" thru_hole circle
-			(at 5.72 2)
-			(size 3.3 3.3)
-			(drill 3.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "9f6391cd-6f2c-4ac5-95ff-2026107a090c")
-		)
-		(pad "1" thru_hole rect
-			(at -4.45 -4.35)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "1" smd oval
+			(at -1.75 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_CLK")
 			(pinfunction "CLKOUT_1")
 			(pintype "unspecified")
 			(uuid "ccd73946-7589-4dcf-a87c-da38e04e3e04")
 		)
-		(pad "2" thru_hole circle
-			(at -3.18 -6.89)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "2" smd oval
+			(at -1.25 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_NXT")
 			(pinfunction "NXT_2")
 			(pintype "unspecified")
 			(uuid "2bb2dece-6075-422e-9e7f-95b910291b26")
 		)
-		(pad "3" thru_hole circle
-			(at -1.91 -4.35)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "3" smd oval
+			(at -0.75 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D0")
 			(pinfunction "DATA0_3")
 			(pintype "unspecified")
 			(uuid "dcb8afea-b697-4595-92eb-676a9be559a4")
 		)
-		(pad "4" thru_hole circle
-			(at -0.64 -6.89)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "4" smd oval
+			(at -0.25 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D1")
 			(pinfunction "DATA1_4")
 			(pintype "unspecified")
 			(uuid "b4fe2cd8-8810-4dad-a62c-91f1f6c5c4db")
 		)
-		(pad "5" thru_hole circle
-			(at 0.63 -4.35)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "5" smd oval
+			(at 0.25 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D2")
 			(pinfunction "DATA2_5")
 			(pintype "unspecified")
 			(uuid "be261dcc-9ac1-4f5e-a269-a18ba3d66375")
 		)
-		(pad "6" thru_hole circle
-			(at 1.9 -6.89)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "6" smd oval
+			(at 0.75 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D3")
 			(pinfunction "DATA3_6")
 			(pintype "unspecified")
 			(uuid "6794bbb3-189c-4762-b694-889d57843618")
 		)
-		(pad "7" thru_hole circle
-			(at 3.17 -4.35)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "7" smd oval
+			(at 1.25 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D4")
 			(pinfunction "DATA4_7")
 			(pintype "unspecified")
 			(uuid "eb28c258-22c8-48c0-ae49-d7f1a2756985")
 		)
-		(pad "8" thru_hole circle
-			(at 4.44 -6.89)
-			(size 1.6 1.6)
-			(drill 0.999998)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "8" smd oval
+			(at 1.75 2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U33-REFSEL0-Pad8)")
 			(pinfunction "REFSEL0_8")
 			(pintype "unspecified+no_connect")
 			(uuid "cbd514f2-14cb-415b-892e-0dc387f45be3")
 		)
-		(pad "9" thru_hole circle
-			(at -6.63 6.89)
-			(size 1.8 1.8)
-			(drill 1.100024)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "9" smd oval
+			(at 2.4 1.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D5")
 			(pinfunction "DATA5_9")
 			(pintype "unspecified")
 			(uuid "2acffd4c-a3c2-4f8e-a6f6-463e8882216f")
 		)
-		(pad "10" thru_hole circle
-			(at -4.09 6.89)
-			(size 1.8 1.8)
-			(drill 1.100024)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "10" smd oval
+			(at 2.4 1.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "USB2_D6")
 			(pinfunction "DATA6_10")
 			(pintype "unspecified")
 			(uuid "148624d8-4501-43e9-a767-62837b3f99d1")
 		)
-		(pad "11" thru_hole circle
-			(at 4.09 6.89)
-			(size 1.8 1.8)
-			(drill 1.100024)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "11" smd oval
+			(at 2.4 0.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U33-REFSEL1-Pad11)")
 			(pinfunction "REFSEL1_11")
 			(pintype "unspecified+no_connect")
 			(uuid "e548fdad-5bb5-4303-b21d-28ef5dc56233")
 		)
-		(pad "12" thru_hole circle
-			(at 6.63 6.89)
-			(size 1.8 1.8)
-			(drill 1.100024)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "12" smd oval
+			(at 2.4 0.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U33-N{slash}C-Pad12)")
 			(pinfunction "N/C_12")
 			(pintype "unspecified+no_connect")
 			(uuid "80470a5b-235e-4763-b315-de99542ce503")
 		)
-		(pad "SH1" thru_hole circle
-			(at -7.74 -1.05)
-			(size 2.5 2.5)
-			(drill 1.799996)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "13" smd oval
+			(at 2.4 -0.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "USB2_D7")
+			(pinfunction "DATA7_13")
+			(pintype "unspecified")
 			(uuid "f56ce095-73ee-4bb1-90d9-9fb07bc2553d")
 		)
-		(pad "SH2" thru_hole circle
-			(at 7.74 -1.05)
-			(size 2.5 2.5)
-			(drill 1.799996)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+		(pad "14" smd oval
+			(at 2.4 -0.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-REFSEL2-Pad14)")
+			(pinfunction "REFSEL2_14")
+			(pintype "unspecified+no_connect")
+			(uuid "9f6391cd-6f2c-4ac5-95ff-2026107a090c")
+		)
+		(pad "15" smd oval
+			(at 2.4 -1.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-SPK_L-Pad15)")
+			(pinfunction "SPK_L_15")
+			(pintype "unspecified+no_connect")
 			(uuid "cfc35466-51f9-452c-abba-59b28b6b041b")
 		)
+		(pad "16" smd oval
+			(at 2.4 -1.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-SPK_R-Pad16)")
+			(pinfunction "SPK_R_16")
+			(pintype "unspecified+no_connect")
+			(uuid "fa48dd3a-07d7-4938-b0a2-2da9ecc4737f")
+		)
+		(pad "17" smd oval
+			(at 1.75 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-CPEN-Pad17)")
+			(pinfunction "CPEN_17")
+			(pintype "unspecified+no_connect")
+			(uuid "5e2e585d-6e1d-4644-b826-60c3af143012")
+		)
+		(pad "18" smd oval
+			(at 1.25 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Zynq Section/Peripherals/DP1")
+			(pinfunction "DP_18")
+			(pintype "unspecified")
+			(uuid "03f29fa8-23ac-43e4-bde6-1a72fd5cb074")
+		)
+		(pad "19" smd oval
+			(at 0.75 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Zynq Section/Peripherals/DN1")
+			(pinfunction "DM_19")
+			(pintype "unspecified")
+			(uuid "1285ffd2-2a27-47b8-8cf8-60678b014a2d")
+		)
+		(pad "20" smd oval
+			(at 0.25 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U33-VDD33)")
+			(pinfunction "VDD33_20")
+			(pintype "unspecified")
+			(uuid "75107a5f-9952-4179-8208-35891cfb94e6")
+		)
+		(pad "21" smd oval
+			(at -0.25 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3V3")
+			(pinfunction "VBAT_21")
+			(pintype "unspecified")
+			(uuid "6bbb5d07-80e6-443d-82a5-695aa5dab201")
+		)
+		(pad "22" smd oval
+			(at -0.75 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U33-VBUS)")
+			(pinfunction "VBUS_22")
+			(pintype "unspecified")
+			(uuid "2c264179-56a1-4dab-9ebd-7a2cd87bc79d")
+		)
+		(pad "23" smd oval
+			(at -1.25 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-ID-Pad23)")
+			(pinfunction "ID_23")
+			(pintype "unspecified+no_connect")
+			(uuid "0e1d10a3-9bf0-4528-a08b-bec769716e01")
+		)
+		(pad "24" smd oval
+			(at -1.75 -2.4 90)
+			(size 0.8 0.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U33-RBIAS)")
+			(pinfunction "RBIAS_24")
+			(pintype "unspecified")
+			(uuid "7ab80bda-5383-491a-a4d3-743576844d3b")
+		)
+		(pad "25" smd oval
+			(at -2.4 -1.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U33-XO)")
+			(pinfunction "XO_25")
+			(pintype "unspecified")
+			(uuid "010c7793-7cf0-4570-878f-15caf2d1d53b")
+		)
+		(pad "26" smd oval
+			(at -2.4 -1.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "USB_REFCLK")
+			(pinfunction "REFCLK_26")
+			(pintype "unspecified")
+			(uuid "6460b685-7141-4ac0-8bc3-e0a543e2284c")
+		)
+		(pad "27" smd oval
+			(at -2.4 -0.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U33-RESETB)")
+			(pinfunction "RESETB_27")
+			(pintype "unspecified")
+			(uuid "5dc8491b-303e-471a-bbed-76cd789955ab")
+		)
+		(pad "28" smd oval
+			(at -2.4 -0.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+1V8")
+			(pinfunction "VDD18_28")
+			(pintype "unspecified")
+			(uuid "63fee83f-c4b3-4967-a30b-a68e4012096b")
+		)
+		(pad "29" smd oval
+			(at -2.4 0.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "USB2_STP")
+			(pinfunction "STP_29")
+			(pintype "unspecified")
+			(uuid "7e9331d8-796d-4d42-b70a-895606cfb9db")
+		)
+		(pad "30" smd oval
+			(at -2.4 0.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+1V8")
+			(pinfunction "VDD18_30")
+			(pintype "unspecified")
+			(uuid "b26f12c7-ac36-46f5-94aa-b0341c02c5ee")
+		)
+		(pad "31" smd oval
+			(at -2.4 1.25 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "USB2_DIR")
+			(pinfunction "DIR_31")
+			(pintype "unspecified")
+			(uuid "0b433a18-926f-427a-9fd7-70660d29609f")
+		)
+		(pad "32" smd oval
+			(at -2.4 1.75 90)
+			(size 0.28 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+1V8")
+			(pinfunction "VDDIO_32")
+			(pintype "unspecified")
+			(uuid "cd1a2fdd-de14-45c3-9546-65f3f6977565")
+		)
+		(pad "33" smd rect
+			(at 0 0 90)
+			(size 3.4 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U33-EXP-Pad33)")
+			(pinfunction "EXP_33")
+			(pintype "unspecified+no_connect")
+			(uuid "e228322d-c4c6-4439-a863-198967ea09b9")
+		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RJ45-TH_HR911105A.wrl"
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-32_L5.0-W5.0-H0.9-P0.50.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -147128,7 +147301,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 270)
 			)
 		)
 	)
@@ -148356,6 +148529,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -148752,7 +148926,7 @@
 			(uuid "9f786f95-5d68-4e42-892e-f9b470b0ff4e")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -150134,6 +150308,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -151313,6 +151488,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -151793,6 +151969,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -152118,7 +152295,7 @@
 			(uuid "867b4816-8e25-47d2-9ac7-3af19c261028")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-8_L3.0-W3.0-H0.9-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VSON-8_L3.0-W3.0-H0.9-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -153646,6 +153823,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -154042,7 +154220,7 @@
 			(uuid "112bb1bf-d753-433c-95dd-641bcfb0502d")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -155225,6 +155403,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -155548,7 +155727,7 @@
 			(uuid "eeeecfa9-62a6-4680-bfea-146eab28a9ee")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-HR-12_L2.5-W2.0-H1.0-P0.50-BL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-HR-12_L2.5-W2.0-H1.0-P0.50-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -156343,7 +156522,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/0b16e84c-4500-4bad-ba00-94b061ebca28")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -157660,6 +157839,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -158583,7 +158763,7 @@
 			(uuid "4fb7b866-496e-4a46-a50a-00b941c1a816")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-64_L9.0-W9.0-P0.50-TL-EP7.4.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-64_L9.0-W9.0-P0.50-TL-EP7.4.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -159232,7 +159412,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/e4a7000d-5084-446e-a441-4d731074793f")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -159673,6 +159853,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -160069,7 +160250,7 @@
 			(uuid "b583d1f3-a1a8-4d0e-81fb-fa24ac20bdb8")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-20_L5.0-W5.0-H1.0-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/VQFN-20_L5.0-W5.0-H1.0-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -162680,7 +162861,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/23e9b748-c4e3-4657-ad19-b3b357b37244")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -167790,7 +167971,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34103631-af90-4212-8a52-ad3ecda0012b/ab6c5561-8bab-46f9-a7bb-c73d5266fef1")
 		(sheetname "/Expansion/")
-		(sheetfile "schematics\\12_Expansion\\12_Expansion.kicad_sch")
+		(sheetfile "schematics/12_Expansion/12_Expansion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -168110,6 +168291,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -168540,7 +168722,7 @@
 			(uuid "573b7e9d-f46b-4da0-bbec-ce81316133c1")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TSSOP-28_L9.7-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/TSSOP-28_L9.7-W4.4-H1.0-LS6.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -168897,7 +169079,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d99e87c9-89e1-42e1-96c2-6f905824a5a1/2a71e740-0608-4d28-be76-9b81bd692197")
 		(sheetname "/Harvester, BMC, Telemetry/")
-		(sheetfile "schematics\\10_Harvester_BMC_Telemetry\\10_Harvester_BMC_Telemetry.kicad_sch")
+		(sheetfile "schematics/10_Harvester_BMC_Telemetry/10_Harvester_BMC_Telemetry.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -169189,7 +169371,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/250c709e-4ef1-4fdc-8f9c-e7b0f3c90207/835f209a-ab64-431b-b519-0bddedb35175")
 		(sheetname "/ePaper Ink Display/")
-		(sheetfile "schematics\\11_ePaper\\11_ePaper.kicad_sch")
+		(sheetfile "schematics/11_ePaper/11_ePaper.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -170101,7 +170283,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/fcad9280-5c3f-419f-92e3-73e6a8b1275f")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -170393,7 +170575,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/712020b9-e43b-4ed1-8d7a-b97c9b738f17")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -171878,6 +172060,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -172077,7 +172260,7 @@
 			(uuid "303c01f3-c433-4e69-88b3-b978a915b21b")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WSON-6_L1.5-W1.5-H0.8-P0.50-TL.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/WSON-6_L1.5-W1.5-H0.8-P0.50-TL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -174171,6 +174354,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -174546,7 +174730,7 @@
 			(uuid "40c55657-268d-415f-8b79-43fb289b1ce4")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-16_L3.0-W3.0-P0.50-EP1.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-16_L3.0-W3.0-P0.50-EP1.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -175195,7 +175379,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/b9fdb960-e04e-419a-bc91-750826cfe24c")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -175633,7 +175817,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/4ab72eee-d74b-464d-9a90-409791469d3a")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -176947,7 +177131,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a834084c-44a5-4ce2-b2a7-fe2bf589f1d2/884e79cb-c3b5-4a4a-ba95-447784feae9e")
 		(sheetname "/Sensors and GNSS/")
-		(sheetfile "schematics\\08_Sensors_GNSS\\08_Sensors_GNSS.kicad_sch")
+		(sheetfile "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -177536,6 +177720,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -178000,7 +178185,7 @@
 			(uuid "9d9b226f-bb28-42d5-8cb2-b2e75ae165d9")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/QFN-24_L4.0-W4.0-P0.50-TL-EP2.7.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/QFN-24_L4.0-W4.0-P0.50-TL-EP2.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -178015,7 +178200,7 @@
 	(footprint "Devboard_Footprints:RJ45-TH_HR911105A"
 		(layer "F.Cu")
 		(uuid "fc97e21c-a2b2-414b-bf59-249c7010fdd5")
-		(at 8.99 73.855)
+		(at 2.24 71.44)
 		(descr "RJ45-LED")
 		(property "Reference" "J1"
 			(at 0 -10.895 0)
@@ -178069,6 +178254,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -178435,7 +178621,7 @@
 			(uuid "4c54d6b4-7e31-40f5-a02d-b9359f0f1931")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RJ45-TH_HR911105A.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/RJ45-TH_HR911105A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -178795,6 +178981,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -179193,7 +179380,7 @@
 			(uuid "3eddca5a-1639-44c2-b7e7-9cf65b62ec81")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SON-12_L4.0-W2.5-H1-P0.40-BL-EP.wrl"
+		(model "${KIPRJMOD}/libraries/3dmodels/SON-12_L4.0-W2.5-H1-P0.40-BL-EP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -179845,6 +180032,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)

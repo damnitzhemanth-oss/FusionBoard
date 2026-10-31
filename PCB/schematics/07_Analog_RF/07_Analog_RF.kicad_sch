@@ -7295,10 +7295,11 @@
 		(end 582.295 53.34)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "41f7d853-8ac5-4cfb-82d1-565bb0c87979")
 	)

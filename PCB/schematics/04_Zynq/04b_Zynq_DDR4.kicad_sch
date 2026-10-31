@@ -2456,10 +2456,11 @@
 		(end 582.295 83.82)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "b4bf4fae-f040-447f-824a-8eaf92adf844")
 	)

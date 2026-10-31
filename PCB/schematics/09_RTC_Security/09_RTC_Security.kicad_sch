@@ -2051,10 +2051,11 @@
 		(end 198.12 36.83)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "a8d8875d-faa9-4426-8c45-b66bcc4864e0")
 	)

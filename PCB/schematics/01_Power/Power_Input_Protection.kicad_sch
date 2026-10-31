@@ -4818,10 +4818,11 @@
 		(end 581.66 40.64)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "cb03a004-200f-4d1e-af7f-89b5f2c51275")
 	)
@@ -4839,7 +4840,7 @@
 	)
 	(text "SECTION 1 : POWER, INPUT, PROTECTION"
 		(exclude_from_sim no)
-		(at 279.908 32.258 0)
+		(at 299.212 32.512 0)
 		(effects
 			(font
 				(face "Montserrat ExtraBold")

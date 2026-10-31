@@ -461,29 +461,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -10.16 15.24 0)
+			(property "Reference" "J3"
+				(at 0 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "USB3_B"
-				(at 10.16 15.24 0)
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_SH_BM09B-SRSS-TB_1x09-1MP_P1.00mm_Vertical"
 				(at 3.81 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -913,24 +911,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15601,14 +15581,27 @@
 		(uuid "bf155989-37b3-48db-a936-37a810bcbcb2")
 	)
 	(rectangle
-		(start 12.065 12.065)
-		(end 828.675 81.915)
+		(start 12.065 72.39)
+		(end 41.91 81.915)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(fill
 			(type none)
+		)
+		(uuid "cec45b9d-a50e-4c85-95e1-b57751db349d")
+	)
+	(rectangle
+		(start 12.065 12.065)
+		(end 828.675 81.915)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
 		)
 		(uuid "da645597-21eb-403e-8242-48c661f52e3f")
 	)
@@ -43234,9 +43227,6 @@
 		(pin "7"
 			(uuid "05537466-54d4-4d32-aed9-ca751e8d1333")
 		)
-		(pin "SH"
-			(uuid "a975e26b-8155-4aa3-b451-e0a2c8ac73dd")
-		)
 		(pin "5"
 			(uuid "398ad44b-6051-4f91-811c-2e96c4fa12ee")
 		)
@@ -44114,84 +44104,6 @@
 			(project "Devboard"
 				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7/3c4a5d01-ee05-4aff-9ef4-dbc6214ba286"
 					(reference "#PWR0865")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 502.92 535.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb6c6c59-d9aa-4d7b-bff8-aa68b6c26b9e")
-		(property "Reference" "#PWR01086"
-			(at 509.27 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 506.476 533.908 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 502.92 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 502.92 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 502.92 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6655b66-4bed-49e7-b250-c5c365bba959")
-		)
-		(instances
-			(project "Devboard"
-				(path "/f4f7837f-dd80-4f77-b150-4534de1c10d6/b48c92d5-ffe6-40f3-9dff-a09c41a730f7/3c4a5d01-ee05-4aff-9ef4-dbc6214ba286"
-					(reference "#PWR01086")
 					(unit 1)
 				)
 			)
@@ -49487,7 +49399,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 27.94 35.56 270)
+		(at 27.94 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49498,7 +49410,7 @@
 		(fields_autoplaced yes)
 		(uuid "e838e80b-5e68-4488-819f-f6518a92e49a")
 		(property "Reference" "#FLG01"
-			(at 29.845 35.56 0)
+			(at 29.845 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49509,7 +49421,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 35.5599 90)
+			(at 31.75 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49520,7 +49432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49531,7 +49443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49542,7 +49454,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49674,7 +49586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Devboard_Footprints:RJ45-TH_HR911105A"
+		(property "Footprint" "Devboard_Footprints:QFN-32_L5.0-W5.0-P0.50-BL-EP3.4"
 			(at 641.35 455.93 0)
 			(hide yes)
 			(show_name no)
@@ -49929,7 +49841,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 27.94 35.56 90)
+		(at 27.94 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49939,7 +49851,7 @@
 		(dnp no)
 		(uuid "e9df6ab8-3209-47d8-a295-51af54e9a5f1")
 		(property "Reference" "#PWR01087"
-			(at 31.75 35.56 0)
+			(at 31.75 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49950,7 +49862,7 @@
 			)
 		)
 		(property "Value" "USB3_VBUS"
-			(at 27.94 34.036 90)
+			(at 24.638 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49961,7 +49873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49972,7 +49884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49983,7 +49895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 27.94 35.56 0)
+			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
