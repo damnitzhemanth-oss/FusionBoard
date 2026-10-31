@@ -7,5 +7,5 @@ PCB/Devboard/Netlists/
 **/fp-lib-table
 **/design-block-lib-table
 .history/
-.vscode
+.vscode/
 datasheets/
