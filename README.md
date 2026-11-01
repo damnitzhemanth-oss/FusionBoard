@@ -17,7 +17,9 @@ I designed this board to explore a new domain after making projects like [Flight
 
 
 Zynq UltraScale+ XCZU4E,900-pin FBVB900 SoC with 4 GB DDR4 (4× MT40A512M16LY), 256 Mb QSPI, 32 GB eMMC, and microSD.
-With High Speed connectivity Peripherals like SFP+ cage, PCIE, superspeed USB.
+With High Speed connectivity Peripherals like SFP+ cage, PCIE, superspeed USB. There are 10 LDOs for different voltages such as +15V, +5V, +3V3, +2.5V, +1.8V, +0V9, +0V85.
+
+On board barometer, GNSS, Gyro, magnetometer. With power harvester and a super capacitor for storing energy.
 
 (*Note : There are many more amazing features, checkout [Features for Nerds](https://github.com/damnitzhemanth-oss/FusionBoard/blob/main/Guides/DetailsForNerds.md)
 for detailed specs list.*)
@@ -25,7 +27,7 @@ for detailed specs list.*)
 ## 2. Requirements
 
 ### Hardware Requirements 
-(*Rough estimated prices according to LCSC*)
+(*Rough estimated prices according to LCSC, in $*)
 
 | # | Reference | Qty | Value | LCSC Part | Subtotal (USD) |
 |---:|:---|--:|:---|:---|--:|
@@ -242,7 +244,7 @@ To flash this board you would need tools like Vivado and vitis. STSW-STUSB002 fo
 
 This is not a simple hobbyist project. This is an 16 layer board with numerous constraints. As a 14 year old with not much experience this board might not be stable. And I cannot manufacture it, as total cost is more than 3000$.
 
-## Development Logs.
+## 3. Development Logs.
 
 ### Key Decisions and Changes.
 
@@ -253,7 +255,46 @@ Key Decision : Using multiple sheets.
 
 Check [Journal](https://github.com/damnitzhemanth-oss/FusionBoard/blob/main/Guides/journal.md) for day to day feats, challenges and much more.
 
-## PCB 
+## 4. PCB 
+
+### Schematic 
+
+Entire schematic is divided into 12 sheets. Each sheet serves a different purpose. Zynq section is further divided into 4 sheets. Checkout [Schematics Folder](https://github.com/damnitzhemanth-oss/FusionBoard/tree/main/Images/Schematics) for more images.
+
+![Master page](Images/Schematics/Devboard.svg)
+
+### Board Stackup.
 
 
+
+## 5. Repo Architecture 
+
+``` Repo Structure
+=
+```
+
+## 6.Gallery 
+
+### Schematic 
+
+### PCB
+
+### 3D Model
+
+## 7.Credits 
+
+- [KiCad](https://www.google.com/url?opi=89978449&q=https://www.kicad.org/&sa=U&ved=2ahUKEwimlZP32eWXAxW-jOEIHdIBCzUQFnoECBEQAQ&usg=AOvVaw3RWTRyOBHwgJWf9Tp2GrV8), used as cad.
+- [KiCanvas](https://kicanvas.org/) for renders.
+- [KiPart](https://pypi.org/project/kipart/) python package for symbol creation.
+- [easyeda2kicad](https://github.com/BiggiePete/easyeda2kicad-App) extension for downloading footprint,symbols, 3d models.
+- Notable Mentions : Ultra librarian, Component Search Engine and my music playlist.
+
+
+## 8.AI Usage 
+I used AI for verifying connections and clear my doubts only in first 4 sessions. After that I didn't use AI for anything. Checkout [Journal](https://github.com/damnitzhemanth-oss/FusionBoard/blob/main/Guides/journal.md) for day to day AI usage.
+
+
+## 9.License.
+
+MIT License. You are free to use this, modify this, experiment with this. But no accountability for failure will be taken. Credits are appreciated.
 
