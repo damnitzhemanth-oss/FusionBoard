@@ -10,7 +10,7 @@ This board features 4GB DDR4 RAM, 32GB Memory, E Ink Display and much more.
 
 
 
-![Hero View](Images\PCB\Hero_3D.png)
+![Hero View](Images/PCB/Hero_3D.png)
 
 ### Goals and Objectives.
 
@@ -476,13 +476,13 @@ FusionBoard
 ## 6.Gallery 
 
 ### Schematic 
-![Schematic](Images\Schematics\Devboard.svg)
+![Schematic](Images/Schematics/Devboard.svg)
 
 ### PCB
-![PCB](Images\PCB\F-3D.png)
-![PCB](Images\PCB\B-3D.png)
-![PCB](Images\PCB\PCB.png)
-![DRC](Images\PCB\DRC.png)
+![PCB](Images/PCB/F-3D.png)
+![PCB](Images/PCB/B-3D.png)
+![PCB](Images/PCB/PCB.png)
+![DRC](Images/PCB/DRC.png)
 
 ## 7.Credits 
 
