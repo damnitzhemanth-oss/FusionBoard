@@ -8,6 +8,8 @@ Fusion Board is an FPGA (Field Programmable Gate Array) built from scratch based
 This board features 4GB DDR4 RAM, 32GB Memory, E Ink Display and much more.
 (*Note : Checkout Repo guide for repo navigation*)
 
+
+
 ![Hero View](Images\PCB\Hero_3D.png)
 
 ### Goals and Objectives.
@@ -493,6 +495,9 @@ FusionBoard
 ## 8.AI Usage 
 I used AI for verifying connections and clear my doubts only in first 4 sessions. After that I didn't use AI for anything. Checkout [Journal](https://github.com/damnitzhemanth-oss/FusionBoard/blob/main/Guides/journal.md) for day to day AI usage.
 
+## CAD
+
+No cad, check CAD folder for KiCad exported cad File.
 
 ## 9.License.
 
