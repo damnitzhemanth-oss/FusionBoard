@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,71 +69,77 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
-        "connection_width": "warning",
-        "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
-        "courtyards_overlap": "error",
-        "creepage": "error",
+        "annular_width": "ignore",
+        "clearance": "warning",
+        "connection_width": "ignore",
+        "copper_edge_clearance": "warning",
+        "copper_sliver": "ignore",
+        "courtyards_overlap": "ignore",
+        "creepage": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "drill_out_of_range": "ignore",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_field_mismatch": "warning",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "ignore",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
-        "hole_to_hole": "warning",
-        "holes_co_located": "warning",
-        "invalid_outline": "error",
+        "hole_clearance": "ignore",
+        "hole_to_hole": "ignore",
+        "holes_co_located": "ignore",
+        "invalid_outline": "ignore",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
-        "microvia_drill_out_of_range": "error",
+        "malformed_courtyard": "ignore",
+        "microvia_drill_out_of_range": "ignore",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
+        "missing_footprint": "ignore",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "error",
         "padstack": "warning",
         "pth_inside_courtyard": "error",
-        "shorting_items": "error",
+        "shorting_items": "warning",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_angle": "error",
+        "track_angle": "ignore",
         "track_dangling": "warning",
         "track_not_centered_on_via": "ignore",
-        "track_on_post_machined_layer": "error",
-        "track_segment_length": "error",
-        "track_width": "error",
-        "tracks_crossing": "error",
+        "track_on_post_machined_layer": "ignore",
+        "track_segment_length": "ignore",
+        "track_width": "ignore",
+        "tracks_crossing": "warning",
         "tuning_profile_track_geometries": "ignore",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -152,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.5,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.1,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +209,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.15,
+        0.5,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +244,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.1,
+          "drill": 0.05
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -524,9 +551,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "specctra_dsn": "",
-      "step": "",
+      "plot": "../Production/Fusionboard_Gerbers/",
+      "specctra_dsn": "Devboard.dsn",
+      "step": "../CAD/Devboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

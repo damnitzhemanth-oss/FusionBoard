@@ -12,6 +12,32 @@ Please read this Journal for clear day to day insights + not so funny jokes + AI
 
 ---
 
+## Summary of Sessions 1–16
+
+| Session | Time | Work completed / summary | Lapse link | AI usage (0–5) | AI usage notes |
+|---|---:|---|---|---:|---|
+| 1 | 6 hr 15 min | Project setup: Pixl project, GitHub repo, file structure, KiCad setup; planned hierarchical sheets; completed Power Section 1. | [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup) | **3** | 5–15 min total: Google AI insights; DeepSeek used twice for MUX connections. |
+| 2 | 2 hr 30 min | Completed Section 1; worked on Section 2: battery charging + power gauge. | [Lapse](https://lapse.hackclub.com/timelapse/RgZXFPeaefZ3) | **1** | ~2 min: shunt resistor pin names/ideal connection; sanity check via search insights. |
+| 3 | 4 hr 18 min | Completed Section 3: power tree stepping down to +5V, +3.3V, +0.8V, +1.5V; read datasheets; created new repo. | [Lapse](https://lapse.hackclub.com/timelapse/42OSYWENe3S8) | **0** | None. |
+| 4 | 11 hr 52 min | Fixed previous-section mistakes; chose 900-pin Zynq; used KiPart to create symbol; created footprint manually. | [Lapse](https://lapse.hackclub.com/timelapse/BUebwhysWVGx) | **0** | None. |
+| 5 | 7 hr 32 min | Began DDR4 memory; found wrong datasheet and scrapped/restarted. | [Lapse](https://lapse.hackclub.com/timelapse/Iurz7R1SKVbi) | **1** | <2 min total: two small instances for understanding Chinese parts of datasheet. |
+| 6 | 2 hr 42 min | Fixed mistakes; began Zynq; completed power rails + capacitors. | [Lapse](https://lapse.hackclub.com/timelapse/Otw7jyXCwGHQ) | **0** | None. |
+| 7 | 1 hr 19 min | Corrected mistakes; rechecked from beginning; reread Zynq User Guide; checklist: S1–S3 + Check 1/2 done; power missing nets, Zynq, DDR4 pending. | [Lapse](https://lapse.hackclub.com/timelapse/XaJOH0bwTB7O) | **0** | None. |
+| 8 | 7 hr | Read Zynq Ultrascale+ user guide/datasheets; added missing power lines and completed Zynq power wiring; added 200+ decoupling caps; planned USB2/USB3; created global labels for I2C and System Monitor. | [Lapse](https://lapse.hackclub.com/timelapse/mQAbmNkva20k) | **0** | None. |
+| 9 | 6 hr 50 min | Completed DDR4 Memory section (4 GB); started peripherals including SD Card and Ethernet. | [Lapse](https://lapse.hackclub.com/timelapse/UzQu37tnS4zK) | **0** | None. |
+| 10 | 1 hr 22 min | Completed a part of Peripherals. | [Lapse](https://lapse.hackclub.com/timelapse/eKkvBAt7k13z) | **0** | None. |
+| 11 | 2 hr 54 min | Completed peripherals; added high-speed peripherals. | [Lapse](https://lapse.hackclub.com/timelapse/DB7lABWo2sH_) | **0** | None. |
+| 12 | 2 hr 50 min | Started High Speed Peripherals; completed USB 3; made changes to Peripherals; added new IC to increase USB ports. | [Lapse](https://lapse.hackclub.com/timelapse/QqmI5UtEsSVz) | **0** | None. |
+| 13 | 2 hr 46 min | Worked on high-speed peripherals; added SuperSpeed USB and I2C Mux. | [Lapse](https://lapse.hackclub.com/timelapse/oGJXCNsa4PkO) | **0** | None. |
+| 14 | 7 hr 12 min | Completed High Speed Peripherals; completed clocking; started Analog RF. | [Lapse](https://lapse.hackclub.com/timelapse/f_RFYJqpCda7) | **0** | None. |
+| 15 | 8 hr 12 min | Completed entire schematic including Analog RF and Energy Harvesting; fixed DRC errors; added SVG images; began PCB placement. | [Lapse](https://lapse.hackclub.com/timelapse/6rcv7T434uuH) | **0** | None. |
+| 16 | 5 hr 37 min | Completed placement and routing; tried autorouting (failed); routed most of PCB; filled GND, AGND, +3V3, +1V8 zones; lost ~5 hr due to timelapse stopping. | [Lapse](https://lapse.hackclub.com/timelapse/sB8_nWAEvyU7) | **0** | None. |
+| **Total** | **81 hr 11 min** |  |  |  |  |
+
+AI usage score: `0 = none`, `5 = highest in this log`.
+
+(*Didnt count hackatime or journals time*)
+
 ## Session 1 :
 [Lapse](https://lapse.hackclub.com/timelapse/AL27EAvf0Gup)
 
@@ -126,8 +152,6 @@ Restructured Repo.
 **AI USAGE** : None.
 
 ---
-
-## Summary of WEEK 1
 
 
 | Session | Time | Work completed / summary | Lapse link | AI usage (0–5) | AI usage notes |
@@ -291,6 +315,9 @@ Next Steps :
 
 [Lapse](https://lapse.hackclub.com/timelapse/6rcv7T434uuH)
 
+**Time: 8 hrs 12 mins**
+
+
 Today lowk was a big day. I completed entire schematic. Analog RF, Energy harvesting etc. Fixed DRC errors. added svg images. and began on placement in PCB.
 
 Next Steps :
@@ -305,4 +332,15 @@ Feats :
 80 hours yay !!
 
 **AI Usage: None**
+
+## Session 16
+
+[Lapse](https://lapse.hackclub.com/timelapse/sB8_nWAEvyU7)
+
+**Time: 5 hrs 37 mins**
+
+Today I completed placement  and routing, but due to poor port of my mobile USB, timelapse stopped and i didnt notice. So i lost aroud 5 hours of time. In which I tried autorouting (failed miserably), but routed most of PCB and filled Gnd, AGND, +3V3,+1V8 zones.
+
+**AI Usage: None**
+
 
