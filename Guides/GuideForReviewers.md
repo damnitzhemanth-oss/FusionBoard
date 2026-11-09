@@ -1,8 +1,6 @@
-Haiyaa reviewer.
+For tech justif, read README.
+For additional notes checkout my repo.
 
-To review this project please checkout Journal.md to get links of lapse divided and honest AI Usage declared.
-Make sure to checkout all schematic PNGs.
-And also as Om advised me, I used rounded corners and as gabin told me I tried KiCanvas but unfortunately it lagged a lot and felt unusable so I didnt use it. 
+I added round corners as Om told, and tried KiCanvas which worked but the link didnt work.
 
-For Tech Justif just read readme you would get more than enough details.
-For additional notes I am good at hardware projects but this domain is completely new for me.
+You should watch around 100 minutes of lapse sob. 

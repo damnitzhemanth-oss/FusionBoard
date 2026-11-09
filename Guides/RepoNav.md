@@ -1,6 +1,4 @@
 FusionBoard
-├── .vscode
-│   └── settings.json
 ├── CAD
 │   └── Devboard-gencad.cad
 ├── Guides
@@ -9,12 +7,19 @@ FusionBoard
 │   ├── RepoNav.md
 │   └── journal.md
 ├── Images
-│   ├── PCB
-│   │   ├── B-3D.png
+│   ├── Additional
 │   │   ├── DRC.png
-│   │   ├── F-3D.png
-│   │   ├── Hero_3D.png
-│   │   └── PCB.png
+│   │   └── DaVinciWho.png
+│   ├── PCB
+│   │   ├── 3D_HERO.png
+│   │   ├── F.cu.png
+│   │   ├── In1.cu.png
+│   │   ├── In2.cu.png
+│   │   ├── In3.cu.png
+│   │   ├── In4.cu.png
+│   │   ├── In5.cu.png
+│   │   ├── PCB.png
+│   │   └── PCB_NZ.png
 │   └── Schematics
 │       ├── 01_Power
 │       │   └── Devboard-Power,Input,Protection.svg
@@ -45,12 +50,49 @@ FusionBoard
 │       ├── 12_Expansion
 │       │   └── Devboard-Expansion.svg
 │       └── Devboard.svg
+├── License.md
 ├── PCB
 │   ├── .history
-│   │   └── README.txt
+│   │   ├── Devboard.kicad_pcb
+│   │   ├── Devboard.kicad_sch
+│   │   ├── README.txt
+│   │   ├── schematics
+│   │   │   ├── 01_Power
+│   │   │   │   └── Power_Input_Protection.kicad_sch
+│   │   │   ├── 02_Battery
+│   │   │   │   └── Battery_Charger_FuelGauge.kicad_sch
+│   │   │   ├── 03_Power_Tree
+│   │   │   │   └── 03_Power_Tree.kicad_sch
+│   │   │   ├── 04_Zynq
+│   │   │   │   ├── 04_Zynq.kicad_sch
+│   │   │   │   ├── 04a_Zynq_Core.kicad_sch
+│   │   │   │   ├── 04b_Zynq_DDR4.kicad_sch
+│   │   │   │   ├── 04c_Zynq_PS_Perhipherals.kicad_sch
+│   │   │   │   └── 04d_Zynq_PS_HighSpeed.kicad_sch
+│   │   │   ├── 05_Clocking
+│   │   │   │   └── 05_Clocking.kicad_sch
+│   │   │   ├── 06_Video
+│   │   │   │   └── 06_Video.kicad_sch
+│   │   │   ├── 07_Analog_RF
+│   │   │   │   └── 07_Analog_RF.kicad_sch
+│   │   │   ├── 08_Sensors_GNSS
+│   │   │   │   └── 08_Sensors_GNSS.kicad_sch
+│   │   │   ├── 08_Sesnsors_GNSS
+│   │   │   │   └── 08_Sensors_GNSS.kicad_sch
+│   │   │   ├── 09_RTC_Security
+│   │   │   │   └── 09_RTC_Security.kicad_sch
+│   │   │   ├── 10_Harvester_BMC_Telemetry
+│   │   │   │   └── 10_Harvester_BMC_Telemetry.kicad_sch
+│   │   │   ├── 11_ePaper
+│   │   │   │   └── 11_ePaper.kicad_sch
+│   │   │   └── 12_Expansion
+│   │   │       └── 12_Expansion.kicad_sch
+│   │   └── ~.repo..lck
 │   ├── Devboard.kicad_pcb
+│   ├── Devboard.kicad_prl
 │   ├── Devboard.kicad_pro
 │   ├── Devboard.kicad_sch
+│   ├── Devboard.round-tracks-config
 │   ├── Libraries
 │   │   ├── 3DModeld.pretty
 │   │   │   └── ddr4.kicad_mod
@@ -70,6 +112,7 @@ FusionBoard
 │   │   │   ├── QFN-32_L5.0-W5.0-H0.9-P0.50.step
 │   │   │   ├── QFN-40_L6.0-W6.0-H0.8-P0.50.step
 │   │   │   ├── QFN-64_L9.0-W9.0-P0.50-TL-EP5.2.step
+│   │   │   ├── RJ45 to SFP Adapter.stp
 │   │   │   ├── RJ45-TH_HR911105A.step
 │   │   │   ├── SMD-18_L10.1-W9.7-P1.10-TL_SKG09F.step
 │   │   │   ├── SMD-4_L2.0-W1.2-H1.3.step
@@ -119,6 +162,7 @@ FusionBoard
 │   │       ├── FBGA-96_L13.5-W7.5-R16-C6-P0.80-TL.kicad_mod
 │   │       ├── FILTER-SMD_4P-L2.0-W1.3-BL_DLW21.kicad_mod
 │   │       ├── Github.kicad_mod
+│   │       ├── INDUCTOR.kicad_mod
 │   │       ├── LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.kicad_mod
 │   │       ├── LGA-10_L2.0-W2.0-P0.50-TL_BMP581.kicad_mod
 │   │       ├── LGA-16_L3.0-W3.0-P0.50-BL_SQ.kicad_mod
@@ -160,12 +204,12 @@ FusionBoard
 │   │       └── XCZU4EVFBVB900PKG.kicad_mod
 │   ├── Schematics
 │   │   ├── 01_Power
-│   │   │   ├── 01a_Input_Protection.kicad_sch
 │   │   │   └── Power_Input_Protection.kicad_sch
 │   │   ├── 02_Battery
 │   │   │   └── Battery_Charger_FuelGauge.kicad_sch
 │   │   ├── 03_Power_Tree
-│   │   │   └── 03_Power_Tree.kicad_sch
+│   │   │   ├── 03_Power_Tree.kicad_sch
+│   │   │   └── 04d_Zynq_PS_HighSpeed.kicad_sch
 │   │   ├── 04_Zynq
 │   │   │   ├── 04_Zynq.kicad_sch
 │   │   │   ├── 04a_Zynq_Core.kicad_sch
@@ -178,7 +222,7 @@ FusionBoard
 │   │   │   └── 06_Video.kicad_sch
 │   │   ├── 07_Analog_RF
 │   │   │   └── 07_Analog_RF.kicad_sch
-│   │   ├── 08_Sensors_GNSS
+│   │   ├── 08_Sesnsors_GNSS
 │   │   │   └── 08_Sensors_GNSS.kicad_sch
 │   │   ├── 09_RTC_Security
 │   │   │   └── 09_RTC_Security.kicad_sch
@@ -188,40 +232,71 @@ FusionBoard
 │   │   │   └── 11_ePaper.kicad_sch
 │   │   └── 12_Expansion
 │   │       └── 12_Expansion.kicad_sch
-│   ├── ~Dev56FC.kicad_pro.lck
-│   ├── ~Dev7143.kicad_pro.lck
+│   ├── gerber_to_order
+│   │   ├── Devboard_304.55x205.56mm_for_Default
+│   │   │   ├── Devboard-B_Cu.gbr
+│   │   │   ├── Devboard-B_Mask.gbr
+│   │   │   ├── Devboard-B_Paste.gbr
+│   │   │   ├── Devboard-B_Silks.gbr
+│   │   │   ├── Devboard-Edge_Cuts.gbr
+│   │   │   ├── Devboard-F_Cu.gbr
+│   │   │   ├── Devboard-F_Mask.gbr
+│   │   │   ├── Devboard-F_Paste.gbr
+│   │   │   ├── Devboard-F_Silks.gbr
+│   │   │   ├── Devboard-In1_Cu.gbr
+│   │   │   ├── Devboard-In2_Cu.gbr
+│   │   │   ├── Devboard-In3_Cu.gbr
+│   │   │   └── Devboard-In4_Cu.gbr
+│   │   └── Devboard_304.55x205.56mm_for_JLCPCB
+│   │       ├── Devboard-B_Cu.gbl
+│   │       ├── Devboard-B_Mask.gbs
+│   │       ├── Devboard-B_Paste.gbp
+│   │       ├── Devboard-B_Silks.gbo
+│   │       ├── Devboard-Edge_Cuts.gm1
+│   │       ├── Devboard-F_Cu.gtl
+│   │       ├── Devboard-F_Mask.gts
+│   │       ├── Devboard-F_Paste.gtp
+│   │       ├── Devboard-F_Silks.gto
+│   │       ├── Devboard-In1_Cu.g1
+│   │       ├── Devboard-In2_Cu.g2
+│   │       ├── Devboard-In3_Cu.g3
+│   │       └── Devboard-In4_Cu.g4
 │   ├── ~Devboard.kicad_pcb.lck
 │   └── ~Devboard.kicad_pro.lck
 ├── Production
 │   ├── BOM
 │   │   ├── BillOfMaterials.csv
-│   │   └── BillOfMaterials.md
+│   │   ├── BillOfMaterials.md
+│   │   └── ibom.html
 │   ├── Devboard-all-pos.csv
-│   └── Fusionboard_Gerbers
-│       ├── Devboard-B_Cu.gbr
-│       ├── Devboard-B_Mask.gbr
-│       ├── Devboard-B_Paste.gbr
-│       ├── Devboard-B_Silkscreen.gbr
-│       ├── Devboard-Edge_Cuts.gbr
-│       ├── Devboard-F_Cu.gbr
-│       ├── Devboard-F_Mask.gbr
-│       ├── Devboard-F_Paste.gbr
-│       ├── Devboard-F_Silkscreen.gbr
-│       ├── Devboard-In10_Cu.gbr
-│       ├── Devboard-In11_Cu.gbr
-│       ├── Devboard-In12_Cu.gbr
-│       ├── Devboard-In13_Cu.gbr
-│       ├── Devboard-In14_Cu.gbr
-│       ├── Devboard-In1_Cu.gbr
-│       ├── Devboard-In2_Cu.gbr
-│       ├── Devboard-In3_Cu.gbr
-│       ├── Devboard-In4_Cu.gbr
-│       ├── Devboard-In5_Cu.gbr
-│       ├── Devboard-In6_Cu.gbr
-│       ├── Devboard-In7_Cu.gbr
-│       ├── Devboard-In8_Cu.gbr
-│       ├── Devboard-In9_Cu.gbr
-│       ├── Devboard-NPTH.drl
-│       ├── Devboard-PTH.drl
-│       └── Devboard-job.gbrjob
-└── README.md
+│   └── Gerbers
+│       ├── Gerbers.zip
+│       └── RawFiles
+│           ├── Devboard-B_Cu.gbr
+│           ├── Devboard-B_Mask.gbr
+│           ├── Devboard-B_Paste.gbr
+│           ├── Devboard-B_Silkscreen.gbr
+│           ├── Devboard-Edge_Cuts.gbr
+│           ├── Devboard-F_Cu.gbr
+│           ├── Devboard-F_Mask.gbr
+│           ├── Devboard-F_Paste.gbr
+│           ├── Devboard-F_Silkscreen.gbr
+│           ├── Devboard-In10_Cu.gbr
+│           ├── Devboard-In11_Cu.gbr
+│           ├── Devboard-In12_Cu.gbr
+│           ├── Devboard-In13_Cu.gbr
+│           ├── Devboard-In14_Cu.gbr
+│           ├── Devboard-In1_Cu.gbr
+│           ├── Devboard-In2_Cu.gbr
+│           ├── Devboard-In3_Cu.gbr
+│           ├── Devboard-In4_Cu.gbr
+│           ├── Devboard-In5_Cu.gbr
+│           ├── Devboard-In6_Cu.gbr
+│           ├── Devboard-In7_Cu.gbr
+│           ├── Devboard-In8_Cu.gbr
+│           ├── Devboard-In9_Cu.gbr
+│           ├── Devboard-NPTH.drl
+│           ├── Devboard-PTH.drl
+│           └── Devboard-job.gbrjob
+├── README.md
+└── firmware.c
