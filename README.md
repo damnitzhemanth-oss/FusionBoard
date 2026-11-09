@@ -9,7 +9,7 @@ This board features 4GB DDR4 RAM, 32GB Memory, E Ink Display and much more.
 (*Note : Checkout Repo guide for repo navigation*)
 
 
-![Hero View](Images\PCB\3D_HERO.png)
+![Hero View](Images/PCB/3D_HERO.png)
 
 ### Goals and Objectives.
 
@@ -275,8 +275,8 @@ Checkout [RepoNav](https://github.com/damnitzhemanth-oss/FusionBoard/blob/dbc74c
 ## 6.Gallery 
 
 ### PCB
-![PCB](Images\PCB\PCB.png)
-![PCB](Images\PCB\PCB_NZ.png)
+![PCB](Images/PCB/PCB.png)
+![PCB](Images/PCB/PCB_NZ.png)
 
 ## 7.Credits 
 
