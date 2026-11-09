@@ -469,7 +469,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics/08_Sensors_GNSS/08_Sensors_GNSS.kicad_sch"
+		(property "Sheetfile" "Schematics/08_Sesnsors_GNSS/08_Sensors_GNSS.kicad_sch"
 			(at 248.92 253.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
