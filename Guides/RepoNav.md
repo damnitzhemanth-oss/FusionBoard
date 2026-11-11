@@ -1,3 +1,4 @@
+``` Repo nav (generated using my plugin)
 FusionBoard
 ├── CAD
 │   └── Devboard-gencad.cad
@@ -300,3 +301,4 @@ FusionBoard
 │           └── Devboard-job.gbrjob
 ├── README.md
 └── firmware.c
+```
